@@ -1,0 +1,63 @@
+baseURL = 'https://softwarearchitecture.fr/'
+languageCode = 'fr-fr'
+title = 'Software Architecture'
+enableRobotsTXT = true
+theme = "hugo-theme-relearn"
+relativeURLs = "True"
+
+# For search functionality
+[outputs]
+  home = ["HTML", "RSS", "SEARCH", "SEARCHPAGE"]
+
+[params]
+  author.name = "Adrien CAUBEL"
+  description = "Apprennez l'Architecture Logicielle"
+  alwaysopen = true
+  showVisitedLinks = true
+  disableInlineCopyToClipBoard = true
+  ordersectionsby = "weight"
+  titleSeparator = "-"
+  externalLinkTarget = "_blank"
+  themeVariant = "learn"
+  custom_css = ["https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css","css/adoc.css"]
+
+# these values are hugo built in markup config
+[markup.highlight]
+  anchorLineNos = false
+  codeFences = true
+  guessSyntax = false
+  hl_Lines = ''
+  lineAnchors = ''
+  lineNoStart = 1
+  lineNos = false
+  lineNumbersInTable = false
+  noClasses = false
+  noHl = false
+  style = 'monokailight'
+  tabWidth = 4
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-fw fa-camera'></i> Adrien CAUBEL"
+url = "https://adriencaubel.fr/"
+weight = 1
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-linkedin'></i> Linkedin"
+url = "https://www.linkedin.com/in/adriencaubel/"
+weight = 5
+
+[[menu.shortcuts]] 
+name = "<i class='fab fa-github'></i> Github"
+identifier = "ds"
+url = "https://github.com/adrien1212"
+weight = 10
+
+
+
+[security.exec]
+    allow = ['^asciidoctor$']
