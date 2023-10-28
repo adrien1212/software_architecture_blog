@@ -4,7 +4,7 @@ date = 2023-10-27T18:26:00+02:00
 weight = 20
 +++
 
-Dans la partie précendente nous avons défini le notion d'intersion de dépendances. Dans cette seconde partie, nous l'améliorons.
+Dans la [partie précendente]({{% ref "/Dependency_Inversion_1.md" %}}) nous avons défini le notion d'intersion de dépendances. Dans cette seconde partie, nous l'améliorons.
 
 ## Retour sur la partie 1
 Dans la figure de gauche, nous avons un module de bas niveau qui défini une API (via un interface) et un module de haut niveau qui intéragie avec le module de bas niveau au travers de cette API.
