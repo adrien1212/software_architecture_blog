@@ -42,20 +42,25 @@ relativeURLs = "True"
   priority = 0.5
 
 [[menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bullhorn'></i> Ressources"
+url = "more/resources/"
+weight = 1
+
+[[menu.shortcuts]]
 name = "<i class='fas fa-fw fa-camera'></i> Adrien CAUBEL"
 url = "https://adriencaubel.fr/"
-weight = 1
+weight = 5
 
 [[menu.shortcuts]]
 name = "<i class='fab fa-linkedin'></i> Linkedin"
 url = "https://www.linkedin.com/in/adriencaubel/"
-weight = 5
+weight = 10
 
 [[menu.shortcuts]] 
 name = "<i class='fab fa-github'></i> Github"
 identifier = "ds"
 url = "https://github.com/adrien1212"
-weight = 10
+weight = 15
 
 
 
