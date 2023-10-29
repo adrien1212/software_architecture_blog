@@ -18,7 +18,7 @@ relativeURLs = "True"
   ordersectionsby = "weight"
   titleSeparator = "-"
   externalLinkTarget = "_blank"
-  themeVariant = "learn"
+  themeVariant='my-custom-variant'
   custom_css = ["https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css","css/adoc.css"]
 
 # these values are hugo built in markup config

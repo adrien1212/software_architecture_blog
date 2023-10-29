@@ -1,5 +1,4 @@
 +++
-archetype = "chapter"
 title = "Inversion de Dépendences"
 weight = 15
 +++

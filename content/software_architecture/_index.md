@@ -1,5 +1,5 @@
 +++
 archetype = "chapter"
-title = "2. Niveaux architecuraux"
+title = "2. L'architecture Logicielle"
 weight = 2
 +++
