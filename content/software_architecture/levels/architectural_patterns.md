@@ -3,6 +3,10 @@ title = "Patrons Architecturaux"
 weight = 10
 +++
 
+{{% notice style="tip" title="Ressources" icon="fa fa-book" %}}
+- [https://en.wikipedia.org/wiki/Architectural_pattern](https://en.wikipedia.org/wiki/Architectural_pattern)
+{{% /notice %}}
+
 {{% notice style="warning" title=" " icon=" " %}}
 Un patron architectural est une façon de résoudre un problème architectural récurrent.
 {{% /notice %}}
@@ -15,5 +19,8 @@ Examples de Styles Architecturaux :
 - Model-View-ViewModel
 - Publish-Subscriber
 - Sensor-controller-actuator
+- etc ... voir lien [wikipedia](https://en.wikipedia.org/wiki/Architectural_pattern)
+
 
 Par exemple, le MVC répond au problème de couplage fort entre la Vue et le Model
+
