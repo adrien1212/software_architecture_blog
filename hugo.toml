@@ -59,7 +59,7 @@ weight = 10
 [[menu.shortcuts]] 
 name = "<i class='fab fa-github'></i> Github"
 identifier = "ds"
-url = "https://github.com/adrien1212"
+url = "https://github.com/adrien1212/livre_architectures_relearn"
 weight = 15
 
 

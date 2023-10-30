@@ -1,7 +1,7 @@
 +++
 archetype = "chapter"
-title = "4. Caractéristiques Archi."
-weight = 4
+title = "3. Caractéristiques Archi."
+weight = 3
 +++
 
 {{% notice style="warning" title=" " icon=" " %}}

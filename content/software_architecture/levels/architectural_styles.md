@@ -10,7 +10,7 @@ Le style Architectural fait référence à un ensemble de lignes directrices ou 
 Les Styles Architecturaux (*Architectural Styles*) est le niveau de granularité le plus élevé. Il spécifie les couches, les modules et leurs intéractions.
 
 Examples de Styles Architecturaux :
-|    Catégori   |                           Style Architectural                         |
+|    Catégorie  |                           Style Architectural                         |
 |-------------|----------------------------------------------------------------------|
 | Communication | SOA, ROA, Message Bus                                                  |
 | Déploiement    | Client/Server                                                          |
