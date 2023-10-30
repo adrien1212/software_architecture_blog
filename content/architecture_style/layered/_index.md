@@ -1,5 +1,5 @@
 +++
-title = "Layered"
+title = "Layered (Couche)"
 weight = 10
 +++
 

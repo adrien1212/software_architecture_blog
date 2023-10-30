@@ -28,7 +28,7 @@ L'Architecture Logicielle (*Software Architecture*) est un dégrès plus haut. O
 ### Architecture Logicielle
 L'objectif de l'Architecture Logicielle est de déterminer quel est le meilleur moyen de répondre aux besoins métiers. Elle répond au *quoi?*. On va déterminer les systèmes de stockage, la communication entres modules, les systèmes de récupération. On fait également des choix de technologie qui sont en adéquation avec les exigences techniques du client (maintenance, evolutilité, fiabilité, performance, etc ...).
 
-On se concentre sur la stratégie à adopter. On va s'aider de patrons architecturaux (n-tiers, event-based, microservices, etc) pour répondre besoins fonctionels et non-fonctionnels du client.
+On se concentre sur la stratégie à adopter. On va s'aider de patrons architecturaux (layered, event-based, microservices, etc) pour répondre besoins fonctionels et non-fonctionnels du client.
 
 ### Conception Logicielle
 L'objectif de la Conception Logicielle est d'implémenter les exigences fonctionelles. Elle répond au *comment?*. Cette conception permet de se concentrer sur le fonctionnement interne de chaque module (e.g. classe Java), leur rôle et comment il va communiquer avec les autres modules. Elle nous aide à produire un code de bonne qualité en se basant sur les principes SOLID, les Design Patterns, etc ...
