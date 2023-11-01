@@ -1,8 +1,11 @@
 +++
-archetype = "chapter"
-title = "1. Objectifs"
+title = "Objectifs"
 weight = 1
 +++
+
+{{% notice style="note" title= " " icon=" " %}}
+Toutes les sources, références et crédits liés au contenu de ce cours sont répertoriés sur la page dédiée aux [ressources](../more/resources/).
+{{% /notice %}} 
 
 Dans le cours nous abordons l'Architecture Logicielle et nous étudierons en détail les [styles architecturaux]({{% ref "../../architecture_style" %}}).
 

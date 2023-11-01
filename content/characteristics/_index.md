@@ -1,6 +1,7 @@
 +++
 archetype = "chapter"
-title = "3. Caractéristiques Archi."
+menuPre = "3. "
+title = "Caractéristiques Archi."
 weight = 3
 +++
 

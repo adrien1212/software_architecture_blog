@@ -1,6 +1,7 @@
 +++
 archetype = "chapter"
-title = "4. Concepts Fondamentaux"
+menuPre = "4. "
+title = "Concepts Fondamentaux"
 weight = 4
 +++
 
