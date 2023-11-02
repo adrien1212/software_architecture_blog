@@ -3,29 +3,28 @@ title = "Layered VS N-tiered"
 weight = 20
 +++
 
-Presque toutes les personnes dans le monde du logiciel utilisent ces deux termes de manière interchangeable, comme s'il s'agissait exactement de la même chose. Néanmois on peut noter une différence notable.
+Presque toutes les personnes dans le monde du logiciel utilisent ces deux termes de manière interchangeable, comme s'il s'agissait exactement de la même chose. 
 
 ## N-tiered
-Correspond à une division physique du système et de comment le code tourne (e.g client et serveur). 
+Correspond à une division physique (hardware) du système et de comment le code tourne (e.g client et serveur). 
 Lorsqu'on parle d'architecture 3-tiers on fait donc référence à une sépration physique.
 
 ![tiers](https://librecours.net/module/culture/langages-du-web/pres/res/servers.png?width=30pc)
 
-Si votre logiciel est stocké sur un serveur, il s'agit d'une architecture 1-tier. Si votre logiciel est stocké sur deux serveurs :
+Si votre logiciel complet est stocké sur un serveur, il s'agit d'une architecture 1-tier. Si votre logiciel est stocké sur deux serveurs :
 - un premier qui est responsable de la couche (layer) présentation
 - un second qui est responsable de la partie backed (couche business, couche accès à la base de données)
 
 Vous avez donc une architecture 2-tiers, où chaque tier peut gérer plusieurs couches.
 
 ## Layered
-Correspond à une division logique du sytème. Les couches typiques sont la présentation, le business et les données.
+Une architecture Layered est une organisation *logique du code* en couche : présentation, business et persistance. Les composants sont regroupés en fonction de leur rôle, et pour chaque rôle (présentation, business et persistance) on va souvent associé un serveur, d'où la proximuité avec l'architecture n-tiers.
+
 
 ![layered](https://www.oreilly.com/api/v2/epubs/9781491971437/files/assets/sapr_0101.png?width=30pc)
 
 
-## Relation N-tiered et Layered
-Dans un système simple, on retrouve les trois mêmes couches 
-- 3-tiers : séparation physique - présentation, business, base de données
-- 3-layers : sépration logique - présentation, business, base de données
+## Ce que n'ai pas une architecture Layered
+Dans la section nous précisons une organisation *logique **du code***. Et non une organisation logique du domaine. En effet, chaque domaine (e.g. un client) est représenté dans les trois couches. L'inconvénient réside dans le fait que si nous modifions les règles du domaine, nous devrons impacter les trois couches.
 
-Néanmois, comme vu dans l'exemple précédent, un tier peut contenir plusieurs couches (layers)
+Par conséquent, une approche *Domain Driven* n'est pas des plus compatible avec le style architectural Layered.
