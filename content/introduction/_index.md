@@ -17,6 +17,7 @@ Dans le premier chapitre dédié [l'architecture Logicielle]({{% ref "../../soft
 Ce chapitre permet de rependre les [concepts fondamentaux]({{% ref "../../basics" %}}) qui nous seront utile pour comprendre les choix fait dans chaque des architectures. Il est primordial d'être familier avec les concepts présentés avant d'entamer les chapitres suivants.
 
 ### Caractéristiques Architectural
+Enumère un ensemble de critère de qualité. Ce chapitre permet de donner les définitions afin de comprendre le vocabulaire évoqué dans les chapitres suivants. E.g. que signifie une architecture *scalable* ?
 
 ### Styles Archituraux
 Nous rentrerons dans le coeurs du sujet [Styles architecturaux]({{% ref "../../architecture_style" %}}). Néanmoins, je vous recommande de lire les chapitres précédents pour avoir une vue globale et comprendre pourquoi nous arrivons à ce chapitre. 
