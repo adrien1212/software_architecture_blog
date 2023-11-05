@@ -24,5 +24,5 @@ Les plugins devraient être indépendants les uns des autres (standlone), et cha
 
 
 ### Kernel
-Le coeur applicatif doit être capable de connaitre l'ensemble des plugins disponibles (voir [communication]({{% ref "/communication.md" %}}))
+Le coeur applicatif doit être capable de connaitre l'ensemble des plugins disponibles (voir [communication]({{% ref "communication.md" %}}))
 

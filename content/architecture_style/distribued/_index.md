@@ -4,13 +4,13 @@ weight = 10
 +++
 
 
-## Avantages
+## Avantages généraux
 - Résilience : si un service tombe les autres non
 - Scalabilité : e.g. netflix pique vers 20h
 - Agilité : des équipes plus autonomes; on va pouvoir cloisoner les équipes, chacune travaille sur ce microservice => on évite le code spaguehtti
 Et les équipes n'ont pas besoin d'utiliser le même langage ni les même techniques, on expose juste nos services via interface
 
-## Inconvéniant
+## Inconvénients généraux
 Mais un système distribué a également de nombreux désavantages
 - Compliqué à mettre en place
 - Compliqué à monitorer
