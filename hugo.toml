@@ -1,7 +1,6 @@
 baseURL = 'https://softwarearchitecture.fr/'
 languageCode = 'fr-fr'
 title = 'Software Architecture'
-enableRobotsTXT = true
 theme = "hugo-theme-relearn"
 relativeURLs = "True"
 
