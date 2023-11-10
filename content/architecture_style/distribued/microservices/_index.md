@@ -1,6 +1,6 @@
 +++
 title = "Microservices"
-weight = 20
+weight = 40
 +++
 
 L'architecture microservices est l'une des approches architecturales qui a connu une popularité croissante et rapide au cours des dernières années.

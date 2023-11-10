@@ -11,7 +11,7 @@ relativeURLs = "True"
 [params]
   author.name = "Adrien CAUBEL"
   description = "Apprennez l'Architecture Logicielle"
-  alwaysopen = true
+  #alwaysopen = true
   showVisitedLinks = true
   disableInlineCopyToClipBoard = true
   ordersectionsby = "weight"
