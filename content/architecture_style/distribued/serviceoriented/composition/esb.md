@@ -1,9 +1,9 @@
 +++
 title = "Enterprise Service Bus"
-weight = 10
+weight = 20
 +++
 
-Notre SI est composé de plusieurs services qui ne sont pas écrit dans un même langage, qui n'utilisent pas les mêmes protocoles. Nous devons trouver un moyen d'assurer la communication entre notre différents services. 
+Nous avons vu que notre SI est composé de plusieurs services. Mais ces services n'étant pas forcément écrit dans un même langage, n'utilisant pas les mêmes protocoles doivent pouvoir fonctionner ensemble. Nous devons trouver un moyen d'assurer la communication entre notre différents services. 
 
 ## Définition
 
@@ -17,3 +17,8 @@ Un Enterprise Service Bus (ESB) est un composant central qui se positionnera com
 Avec une connexion point-à-point les différents services auraient du adapter leur message pour chaque service intérrogé. Maintenant avec un ESB qui centralise tous les adaptateurs nous n'avons besoin de connecter nos services à l'ESB qui se charge de traduire la requête puis la réponse.
  
 ![ESB](https://it.ucla.edu/sites/default/files/media/images/esb_diagrams_1b.jpg)
+
+
+{{% notice style="note" title= "" icon="" %}}
+Dans une architecture SOA, l'ESB intègre un Service Broker
+{{% /notice %}} 

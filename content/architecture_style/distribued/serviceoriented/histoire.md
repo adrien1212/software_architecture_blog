@@ -30,11 +30,11 @@ Pour ce faire, une architecture SOA doit répondre au caractéristiques suivante
 L'architecture SOA et les services web sont deux choses différentes, mais les *services web* sont le moyen privilégié de réaliser l'architecture SOA sur la base de normes.
 {{% /notice %}} 
 
-Les services web sont des systèmes logiciels conçus pour soutenir l'interopérabilité de machine-à-machine sur un réseau. Cette interopérabilité est assurée par un ensemble de normes ouvertes basées sur XML, telles que WSDL (Web Services Description Language), SOAP (Simple Object Access Protocol) et UDDI (Universal Description, Discovery, and Integration). Ces normes fournissent une approche commune pour la définition, la publication et l'utilisation des services web.
+Les services web sont des systèmes logiciels conçus pour soutenir l'interopérabilité de machine-à-machine sur un réseau. Cette interopérabilité est assurée par un ensemble de normes ouvertes basées sur XML, telles que WSDL (Web Services Description Language), SOAP (Simple Object Access Protocol) et UDDI (Universal Description, Discovery, and Integration). Ces normes fournissent une approche commune pour la définition, la publication et l'utilisation des services web. 
 
 ![WebService](../images/webservice.png?width=30pc)
 
-La figure du dessus montre la mise en œuvre de l'architecture SOA avec les services Web.
+La figure du dessus montre la mise en œuvre de l'architecture SOA avec les services Web. [^1]   
 1. Le fournisseur (service gestion client) publie son contrat d'interface sous la forme d'un document WSDL dans l'UDDI
 2. Les demandeurs de services localisent les services à l'aide d'un registre de services, UDDI. Le serveur UDDI contient la base de données des descriptions de services et les fournit à l'application du demandeur de service. 
 3. Le demandeur (service mobile) utilise le document WSDL pour comprendre le contrat d'interface avec le service web. Grâce aux informations contenues dans le document WSDL le demandeur comprendra comment accéder au service, quelles sont ses méthodes et quels sont les paramètres à envoyer, etc ... 
@@ -42,3 +42,6 @@ La figure du dessus montre la mise en œuvre de l'architecture SOA avec les serv
 > Les services web simplifient les processus commerciaux sans l'implication de l'homme.
 
 Par exemple, lorsqu'un employé réserve un vol, il indique l'heure de vol souhaitée. Ensuite, un membre du personnel naviguera sur le serveur web de la compagnie aérienne et réservera le billet, car il n'y a pas d'intégration entre les services web et le système de réservation de vol de la compagnie aérienne. Grâce au service web, les deux services sont intégrés et le processus est automatisé
+
+
+[^1]: Nous reviendrons sur ce schema et le fonctionnement dans les parties suivantes
