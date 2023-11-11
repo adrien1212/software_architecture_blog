@@ -1,6 +1,7 @@
 +++
 title = "Microkernel (Plugin)"
 weight = 20
+alwaysopen = false
 +++
 
 {{% notice style="tip" title="Ressources" icon="fa fa-book" %}}

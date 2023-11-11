@@ -1,6 +1,8 @@
 +++
+menuPre = " - 5.2 "
+linkTitle = "Distribuées"
 title = "Architectures Distribuées"
-weight = 10
+weight = 7
 +++
 
 

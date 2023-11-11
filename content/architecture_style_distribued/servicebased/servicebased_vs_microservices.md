@@ -1,5 +1,6 @@
 +++
-title = "Service-B vs Microservices"
+title = "Service-Based vs Microservices"
+linkTitle = "Service-B vs Microservices"
 weight = 40 
 +++
 

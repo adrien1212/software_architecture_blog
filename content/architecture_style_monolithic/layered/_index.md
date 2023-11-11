@@ -1,6 +1,7 @@
 +++
 title = "Layered (Couche)"
 weight = 10
+alwaysopen = false
 +++
 
 ## Objectif du découpage

@@ -1,6 +1,7 @@
 +++
 title = "Pipeline"
 weigth = 30
+alwaysopen = false
 +++
 
 L'architecture Pipeline (ou Pipe-Filter) permet de traiter des données de manière séquentielle graâce à une serie d'éaipe. Chaque étape reçoit l'output de l'étape précédente, le traite et le passe à l'étape suivante.

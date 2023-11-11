@@ -1,6 +1,8 @@
 +++
+menuPre = " - 5.3 "
+linkTitle = "Alternative"
 title = "Architectures Alternative"
-weight = 15
+weight = 8
 +++
 
 {{% notice style="tip" title="Ressources" icon="fa fa-book" %}}

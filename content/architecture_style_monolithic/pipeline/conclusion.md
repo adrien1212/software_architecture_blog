@@ -13,7 +13,7 @@ weigth = 10
 - Lisibilité et maintenabilité : La structure du pipeline permet souvent d'obtenir un code plus et organisé, ce qui facilite sa compréhension et sa maintenance.
 
 ## Inconvénients
-On reste sur une architecture monolithique avec ses [inconvénients]({{% ref "../../monolithic/" %}})
+On reste sur une architecture monolithique avec ses [inconvénients]({{% ref "../../architecture_style_monolithic/" %}})
 
 ## Conclusion
 Une architecture en pipeline est efficace pour les problèmes qui peuvent être décomposés en une série d'étapes de traitement indépendantes et séquentielles. Cependant, elle n'est pas forcément adaptée aux problèmes qui nécessitent des dépendances complexes ou un traitement parallèle.

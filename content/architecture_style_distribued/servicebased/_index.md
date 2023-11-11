@@ -1,9 +1,10 @@
 +++
 title = "Service-Based"
 weight = 20
+alwaysopen = false
 +++
 
-La *Service Based Architecture* est essentiel à comprendre. Elle s'inscrit comme bon compromis entre les [archiectures monolithiques]({{% ref "../../monolithic" %}}) et l'[architecture microservices]({{% ref "../microservices/" %}}). De nombreux concepts de l'architecture *Service Based* son repris dans le chapitre dédié aux microservices. 
+La *Service Based Architecture* est essentiel à comprendre. Elle s'inscrit comme bon compromis entre les [archiectures monolithiques]({{% ref "../../architecture_style_monolithic/" %}}) et l'[architecture microservices]({{% ref "../microservices/" %}}). De nombreux concepts de l'architecture *Service Based* son repris dans le chapitre dédié aux microservices. 
 
 {{% notice style="warning" title= " " icon=" " %}}
 L'essentiel est de comprendre les [différences]({{% ref "servicebased_vs_microservices.md" %}}) entre l'architecture service-based et l'architecture microservices.

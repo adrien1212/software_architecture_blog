@@ -17,11 +17,11 @@ Monolithique :
 - Pipeline architecture
 - Microkernel architecture
 
-Distribuée
+Distribuée :
 - Service-based architectur
 - Event-driven architecture
 - Space-based architecture
-- Service-oriented architectur
+- Service-oriented architecture
 - Microservices architecture
 
 {{% notice info %}}

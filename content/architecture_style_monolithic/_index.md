@@ -1,6 +1,8 @@
 +++
+menuPre = " - 5.1 "
+linkTitle = "Monolithiques"
 title = "Architectures Monolithiques"
-weight = 5
+weight = 6
 +++
 
 Sur cette page on détaille les caractéristiques générales d'une architecture monolithique
