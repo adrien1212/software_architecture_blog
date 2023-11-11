@@ -1,7 +1,7 @@
 +++
 title = "Les rôles de l'architecte logiciel"
 description = "Comprendre l'importance du rôle de l'architecte logiciel en développement informatique"
-weight = 20
+weight = 40
 +++
 
 ## System Design

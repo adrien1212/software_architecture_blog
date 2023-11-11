@@ -1,6 +1,6 @@
 +++
 title = "Architecture VS Design"
-weight = 3
+weight = 10
 +++
 
 {{% notice style="tip" title="Ressources" icon="fa fa-book" %}}

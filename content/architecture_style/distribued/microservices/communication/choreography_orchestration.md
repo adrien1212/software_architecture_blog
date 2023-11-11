@@ -4,7 +4,7 @@ weight = 10
 +++
 
 ## Chorégraphie (front controller pattern)
-La chorégraphie utilise le même style de communication que l'architecture [Event Driven]({{% ref "../../event_driven" %}}). En d'autres termes, il n'existe pas de broker central dans cette architecture.
+La chorégraphie utilise le même style de communication que l'architecture [Event Driven]({{% ref "../../eventdriven" %}}). En d'autres termes, il n'existe pas de broker central dans cette architecture.
 
 Ainsi chaque service appel les services nécessaires à la demande. Le principal effet négatif est l'ajout de complexité au niveau du service.
 

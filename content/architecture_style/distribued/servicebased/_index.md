@@ -1,6 +1,6 @@
 +++
-title = "Service Based"
-weight = 10
+title = "Service-Based"
+weight = 20
 +++
 
 La *Service Based Architecture* est essentiel à comprendre. Elle s'inscrit comme bon compromis entre les [archiectures monolithiques]({{% ref "../../monolithic" %}}) et l'[architecture microservices]({{% ref "../microservices/" %}}). De nombreux concepts de l'architecture *Service Based* son repris dans le chapitre dédié aux microservices. 

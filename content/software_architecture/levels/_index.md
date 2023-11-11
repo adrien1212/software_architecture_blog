@@ -1,6 +1,6 @@
 +++
 title = "Niveaux architecturaux"
-weight = 10
+weight = 30
 +++
 
 {{% notice style="tip" title="Ressources" icon="fa fa-book" %}}

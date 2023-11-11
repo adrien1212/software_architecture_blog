@@ -1,6 +1,6 @@
 +++
 title = "C4 Model"
-weight = 5
+weight = 20
 +++
 
 {{% notice style="tip" title="Ressources" icon="fa fa-book" %}}
