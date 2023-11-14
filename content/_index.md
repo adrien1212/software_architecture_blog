@@ -1,6 +1,7 @@
 +++
 archetype = "home"
 title = "Architecture Logicielle"
+description = "Apprennez l'Architecture Logicielle (Software Architecture) - architecture monolithique, distribuée, microservices, soa, etc ..."
 +++
 
 {{% notice style="warning" title="En rédaction" icon=" " %}}
