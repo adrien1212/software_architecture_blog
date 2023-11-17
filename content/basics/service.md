@@ -1,9 +1,9 @@
 +++
 title = "Service"
-weigth = 40
+weight = 40
 +++
 
-{{% notice style="tip" title=" " icon=" " %}}
+{{% notice style="tip" title="Ressource" icon="fa fa-book" %}}
 - [Lesson 134 - What is a Service?](https://youtu.be/AHMlV_Y80Zw)
 {{% /notice %}}
 
@@ -14,7 +14,7 @@ Tout au long des chapitres suivants nous allons parler de *Service*, regardons d
 Un service est une unité déployable qui accomplit une activité métier ou d'infrastructure
 {{% /notice %}}
 
-![Service example](images/service_example.png)
+![Service example](../images/service_example.png)
 
 Dans l'exemple de la vidéo, nous obtenons :
 - un service `Ticket` qui contient l'ensemble de règles de métiers. Un service est donc un regroupement logique de règles (qui sont des classes Modules, des classes Java, etc ...)
