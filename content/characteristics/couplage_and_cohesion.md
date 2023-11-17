@@ -1,5 +1,5 @@
 +++
-title = "Couplage Faible"
+title = "Couplage et Cohesion"
 weight = 40
 +++
 
@@ -7,6 +7,8 @@ weight = 40
 - [https://enterprisecraftsmanship.com/posts/cohesion-coupling-difference/](https://enterprisecraftsmanship.com/posts/cohesion-coupling-difference/)
 {{% /notice %}}
 
-Low Coupling, high cohesion
+{{% notice style="warning" title=" " icon=" " %}}
+L'objectif est de respecter le principe " *Low coupling, High cohésion* "
+{{% /notice %}}
 
-Bonne image sur le site en ressource 
+La ressource explique parfaitement ce principe
