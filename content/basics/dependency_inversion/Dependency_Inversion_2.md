@@ -15,12 +15,12 @@ Ainsi le module de haut niveau défini une abstraction où :
 - Le module de haut niveau dépend de cette abstraction
 - Le module de bas niveau dépend aussi de cette abstraction (implémentation)
 
-![Alt text](../../images/DI2-1.png)
+![Alt text](../images/DI2-1.png)
 
 ## Améliorer l'inversion de dépendance
 Etant donné que le module de bas niveau implémente le module de haut niveau il est impossible de réutiliser le module de bas niveau dans un autre contexte, par exemple dans une autre application. Pour résoudre ce problème nous utilisons de patron de conception *Adaptateur*.
 
-![Alt text](../../images/DI2-2.png)
+![Alt text](../images/DI2-2.png)
 
 1. Nous créons une interface dans le module de bas niveau. Par conséquent, les deux modules peuvent maintenant être réutilisés dans n'importe quel contexte.
 2. Nous créons une nouvelle classe *Adapter* que nous positionnons dans un module tier. 

@@ -7,7 +7,7 @@ weight = 20
 ## Le problème
 Supposons l'architecture suivante où la classe `A` dépend de la classe `B`.
 
-![Alt text](../../images/DI1-1.png)
+![Alt text](../images/DI1-1.png)
 
 Dans cette conception, si `B` est ammenée à changer (e.g. montée en version), alors la classe `B` **et** la classe `A` vont devoir être rédéployées.
 On va devoir :
@@ -15,7 +15,7 @@ On va devoir :
 - build `B` **et** `A`
 - pour finalement déployer `B` **et** `A` chez le client    
 
-![Alt text](../../images/DI1-2.png)
+![Alt text](../images/DI1-2.png)
 
 Or, seulement `B` a été modifiée. Nous souhaitons donc que seulement `B` soit packagée, build et déployée chez le client.
 
@@ -31,7 +31,7 @@ En d'autre terme, `A` qui est un détail doit dépendre d'une interface `I`.
 
 Si nous appliquons ces deux affirmations à notre architecture nous obtenons 
 
-![Alt text](../../images/DI1-3.png)
+![Alt text](../images/DI1-3.png)
 
 - `A` ne dépend plus de `B` mais de son interface `IB`
 - Donc si `B` est modifiée alors seulement `B` sera packagée, build et déployée chez le client

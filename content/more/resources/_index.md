@@ -19,6 +19,7 @@ Egalement de nombreux blogs, discussions (stackexchanges) m'ont permis d'approfo
 
 - [https://softwarearchitecturefordevelopers.com/](https://softwarearchitecturefordevelopers.com/)
 - [https://www.kamilgrzybek.com/blog/categories/architecture-and-design](https://www.kamilgrzybek.com/blog/categories/architecture-and-design)
+- [Enterprise Craftsmanship](https://enterprisecraftsmanship.com/posts)
 
 ## Création du site
 Ce site utilise le générateur de site statique [Hugo](https://gohugo.io/) avec le thème communautaire [Hugo Relearn Theme](https://mcshelby.github.io/hugo-theme-relearn/). Un grand merci pour ce thème de qualité qui répond aux attentes des créateurs de cours.
