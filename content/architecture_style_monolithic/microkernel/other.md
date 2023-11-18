@@ -5,7 +5,7 @@ weight = 10
 
 ## Implémenter le coeur 
 Le coeur applicatif peut être implémenté de différentes façon :
-- nous pouvons utiliser une [architecture Layered]({{% ref "../Layered" %}})
+- nous pouvons utiliser une [architecture Layered]({{% relref "../Layered" %}})
 - nous pouvons le découper en différent domaine logique qui intègre un ou plusieurs plugins. Par exemple le service de paiements pourra faire appel à plusieurs plugin (carte bancaire, paypal, etc ...)
 
 ![core organization](../images/core_organization.png)

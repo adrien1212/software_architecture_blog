@@ -6,7 +6,7 @@ weight = 20
 Là où l'atomicité est un principe trivial en architecture monolithique il devient compliqué de le mettre en place dans un architecture distribuée en microservices. En effet, avec l'architecture microservices nous souhaitons un découplage fort, mais comment doit-on assurer les transactions qui se déroulent au sein de plusieurs services ?
 
 ## Revoir la granularité (Boundaries)
-Etant donnée que la gestion des transactions entre plusieurs services est difficile, la première solution consiste à revoir la granularité de nos composants. Comme nous l'avons dans la section dédiée au [Bounded Context]({{% ref "../bounded_context.md" %}}) les transactions *boundaries* sont l'un des indicateurs courants de la granularité des services.
+Etant donnée que la gestion des transactions entre plusieurs services est difficile, la première solution consiste à revoir la granularité de nos composants. Comme nous l'avons dans la section dédiée au [Bounded Context]({{% relref "../bounded_context.md" %}}) les transactions *boundaries* sont l'un des indicateurs courants de la granularité des services.
 
 > Don’t do transactions in microservices—fix granularity instead!
 

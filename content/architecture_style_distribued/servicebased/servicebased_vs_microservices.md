@@ -38,7 +38,7 @@ L'architecture *Service Based* offre de nombreux avantages :
 
 ### Quand l'éviter
 Néanmoins on n'utilisera par l'architecture *Space Based* (on préfèrera du microservices) dans les cas suivants :
-- Il nous faut une forte [élasticité]({{% ref "../../../characteristics/elasticity.md" %}}). Ayant des service de taille conséquente leur allumage sera trop long
+- Il nous faut une forte [élasticité]({{% relref "../../../characteristics/elasticity.md" %}}). Ayant des service de taille conséquente leur allumage sera trop long
 
 - Nous avons beaucoup de communication entre services. L'architecture *Service Based* est vraiment sympa lorsque nos services ne communique pas entres eux mais seulement avec la base de données où ils peuvent partager des informations (transaction facile).
 ![Alt text](../images/interservice.png)

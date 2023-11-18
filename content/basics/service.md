@@ -23,7 +23,7 @@ Dans l'exemple de la vidéo, nous obtenons :
 Avec cette exemple, on voit que nos services peuvent être vus avec des granularités différentes.
 
 ## Caractérisiques par architecture 
-Nous revenons sur les différents nom donnés à un service dans les [archiectures distribuées]({{% ref "../../architecture_style_distribued" %}})
+Nous revenons sur les différents nom donnés à un service dans les [archiectures distribuées]({{% relref "../../architecture_style_distribued" %}})
 
 ### Microservices
 > Le service se nomme un *microservice*
@@ -31,7 +31,7 @@ Nous revenons sur les différents nom donnés à un service dans les [archiectur
 Caractéristisques :
 - répond à un seul objectif (e.g. Service création de tickets)
 - d'une granularité fine
-- posséde leur propre base de données ([bounded context]({{% ref "../../architecture_style_distribued/microservices/bounded_context.md" %}}))
+- posséde leur propre base de données ([bounded context]({{% relref "../../architecture_style_distribued/microservices/bounded_context.md" %}}))
 - communique fréquement avec les autres (micro)services
 
 ### Service-Based 
@@ -60,4 +60,4 @@ Caractéristisques :
 - d'une granularité variante
 - Contient un stockage de données in-memory
 - La communication avec la base de données se fait de manière asynchrone
-- Les services se up et se down fréquement ([élasticité]({{% ref "../../characteristics/elasticity.md" %}}) forte)
+- Les services se up et se down fréquement ([élasticité]({{% relref "../../characteristics/elasticity.md" %}}) forte)

@@ -31,7 +31,7 @@ En d'autres termes, nous pouvons positionner notre code dans différent ensemble
 Une séparation logique est verticale tandis qu'une séparation physique est horizontale.
 
 ### N-tiered vs Layerer
-L'architecture *N-Tier* est une séparation physique du code. Tandis qu'une architecture *Layer* est une séparation logique du code (cf [Layered vs N-tier]({{% ref "../architecture_style_monolithic/layered/layered_vs_ntier.md" %}})).
+L'architecture *N-Tier* est une séparation physique du code. Tandis qu'une architecture *Layer* est une séparation logique du code (cf [Layered vs N-tier]({{% relref "../architecture_style_monolithic/layered/layered_vs_ntier.md" %}})).
 
 Mais ces deux concepts peuvent être fortement liés. Une *layer* peuvent devenir un *tier* si elle peut être séparée physiquement
 des couches qui la consomment. Par exemple, chaque couche logique (vue, présentation, base de données) s'exécute sur des serveurs séparés.

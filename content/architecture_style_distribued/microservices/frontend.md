@@ -3,7 +3,7 @@ title = "Front End"
 weight = 25
 +++
 
-Dans la version initiale de l'architecture microservices la couche de présentation était inclus dans les [Bounded Context]({{% ref "bounded_context.md" %}}), mais cette approche rendait l'architecture compliquée. Ainsi deux solutions ont émergé :
+Dans la version initiale de l'architecture microservices la couche de présentation était inclus dans les [Bounded Context]({{% relref "bounded_context.md" %}}), mais cette approche rendait l'architecture compliquée. Ainsi deux solutions ont émergé :
 - Une architecture microservices avec une interface utilisateur monolithique
 - Une architecture microservices avec une interface utilisateur *microfrontend*
 

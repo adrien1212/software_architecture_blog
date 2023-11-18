@@ -5,7 +5,7 @@ weight = 30
 
 
 ## Sinkhole anti-pattern
-Cette anti-pattern est fortement lié à [l'architecture Layered]({{% ref "/architecture_style_monolithic/layered" %}}). En effet, le principal risque dans architecture s'est de permettre à une requête traverse toutes les couches sans qu'aucune business logic n'ait été appliquée.
+Cette anti-pattern est fortement lié à [l'architecture Layered]({{% relref "/architecture_style_monolithic/layered" %}}). En effet, le principal risque dans architecture s'est de permettre à une requête traverse toutes les couches sans qu'aucune business logic n'ait été appliquée.
 
 ![Alt text](../images/Sinkhole-antipattern.png)
 

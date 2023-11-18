@@ -15,7 +15,7 @@ Ensuite, cette architecture permet d'avoir un code facilement testable et mainte
 {{% notice style="warning" title=" " icon=" " %}}
 Les couches communiquent par le biais d'interfaces ou d'API bien définies, abstrayant les détails de la mise en œuvre de chaque couche.
 {{% /notice %}}
-Pour éviter qu'une requête traverse toutes les couches [sinkhole antipattern]({{% ref "/architecture_antipattern/architecture_sinkhole.md" %}}), nous appliquons de l'inversion de dépendances entre nos couches.
+Pour éviter qu'une requête traverse toutes les couches [sinkhole antipattern]({{% relref "/architecture_antipattern/architecture_sinkhole.md" %}}), nous appliquons de l'inversion de dépendances entre nos couches.
 
 ![Alt text](images/n-tiers-detailled.png)
 

@@ -9,8 +9,8 @@ weight = 40
 L'architecte logiciel est responsable de la conception de haut niveau du système logiciel. Il s'agit notamment de définir les composants du système et leurs interactions. Il prend des décisions en s'appuyant sur les besoins métiers (fonctionnels et non-fonctionnels) et sur les compétences de l'équipe de réalisation.  
 L'architecte ne précise pas la technologie à utiliser (e.g. ReactJS) mais il précise qu'il faudra utiliser une framework *reactive-based* pour la partie présentation
 
-- Définir les [style architecturaux]({{% ref "../../architecture_style" %}}) à utilser
-- Identifier les [caractéristiques architecturales]({{% ref "../../characteristics" %}})
+- Définir les [style architecturaux]({{% relref "../../architecture_style" %}}) à utilser
+- Identifier les [caractéristiques architecturales]({{% relref "../../characteristics" %}})
 
 ## Analyse continue de l'architecture
 L'architecte doit garder un oeil sur les équipes de réalisation. Il doit s'assurer que les outils choisis et les développements effectués respecte bien les besoins. En effet, si l'architecte ne dévoue pas une partie de son temps à analyser l'architecture alors celle-ci pourrait avoir avoir un impact négatfi sur les caractéristiques architecturales requises, telles que la baisse de la performance, de la disponibilité ou la difficulté à *scaler*.

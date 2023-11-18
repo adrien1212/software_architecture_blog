@@ -4,10 +4,10 @@ weight = 20
 alwaysopen = false
 +++
 
-La *Service Based Architecture* est essentiel à comprendre. Elle s'inscrit comme bon compromis entre les [archiectures monolithiques]({{% ref "../../architecture_style_monolithic/" %}}) et l'[architecture microservices]({{% ref "../microservices/" %}}). De nombreux concepts de l'architecture *Service Based* son repris dans le chapitre dédié aux microservices. 
+La *Service Based Architecture* est essentiel à comprendre. Elle s'inscrit comme bon compromis entre les [archiectures monolithiques]({{% relref "../../architecture_style_monolithic/" %}}) et l'[architecture microservices]({{% relref "../microservices/" %}}). De nombreux concepts de l'architecture *Service Based* son repris dans le chapitre dédié aux microservices. 
 
 {{% notice style="warning" title= " " icon=" " %}}
-L'essentiel est de comprendre les [différences]({{% ref "servicebased_vs_microservices.md" %}}) entre l'architecture service-based et l'architecture microservices.
+L'essentiel est de comprendre les [différences]({{% relref "servicebased_vs_microservices.md" %}}) entre l'architecture service-based et l'architecture microservices.
 {{% /notice %}} 
 
 ## Introduction par Mark Richard
@@ -22,4 +22,4 @@ Cette architecture se compose :
 
 ![Service Based Architecture](images/servicebased.png)
 
-Les services représentent le coeur applicatif, étant donné que nous n'avons qu'une seule base de données nous limiterons le nombre de service de 4 à 12. Le principal problème viendra lorsqu'on va souhaitez changer l'architecture de notre base de données, l'ensemble des services seront impactés. Une solution consiste à faire du [Database Partitioning]({{% ref "database_partitioning.md" %}})
+Les services représentent le coeur applicatif, étant donné que nous n'avons qu'une seule base de données nous limiterons le nombre de service de 4 à 12. Le principal problème viendra lorsqu'on va souhaitez changer l'architecture de notre base de données, l'ensemble des services seront impactés. Une solution consiste à faire du [Database Partitioning]({{% relref "database_partitioning.md" %}})

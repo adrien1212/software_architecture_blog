@@ -28,10 +28,10 @@ La couche 2 représente un ensemble d'architecture permettant de créer un modul
 
 
 ### Couche 3
-On retrouve les concepts purement techniques ([Conception Logicielle]({{% ref "/architecture_vs_design.md" %}})) qui permettent la réalisation d'un code de qualité. Ces concepts sont présents dans chaque architecture de la couche supérieure. Il est nécessaire de les matriser pour effectuer une bonne conception.
+On retrouve les concepts purement techniques ([Conception Logicielle]({{% relref "/architecture_vs_design.md" %}})) qui permettent la réalisation d'un code de qualité. Ces concepts sont présents dans chaque architecture de la couche supérieure. Il est nécessaire de les matriser pour effectuer une bonne conception.
 
 ## Lien avec le C4 Model
-Il y a un très fort lien avec le [C4 Model]({{% ref "/C4_model.md" %}})  :
+Il y a un très fort lien avec le [C4 Model]({{% relref "/C4_model.md" %}})  :
 - La couche conteneurs qui montre la décomposition du système en conteneurs indépendants peut être associée à la couche 1
 - La couche components qui est un regroupement de fonctionnalités peut être associée à une composinaison de patrons de couche 2 (e.g plusieurs architectures hexagonales)
 - La couche technique peut être associée à la couche 3

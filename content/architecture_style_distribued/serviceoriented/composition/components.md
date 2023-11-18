@@ -11,7 +11,7 @@ Une architecture orientée services (SOA) est constituée de quatre composants p
 L’architecture orientée services expose les fonctionnalités de l’entreprise sous la forme de services destinés à être consommés par les applications.
 {{% /notice %}} 
 
-> En plus des notes données dans cette section, vous pouvez vous référer à la partie [Définition]({{% ref "../definition.md" %}}) 
+> En plus des notes données dans cette section, vous pouvez vous référer à la partie [Définition]({{% relref "../definition.md" %}}) 
 
 Les services sont les éléments constitutifs de base d'une SOA. Ils peuvent être privés (uniquement disponibles pour les utilisateurs internes d'une organisation) ou publics (disponibles pour tous via Internet). De manière individuelle, chaque service est doté de trois fonctions principales.
 
