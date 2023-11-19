@@ -3,6 +3,7 @@ languageCode = 'fr-fr'
 title = 'Software Architecture'
 theme = "hugo-theme-relearn"
 relativeURLs = "True"
+enableRobotsTXT = true
 
 # For search functionality
 [outputs]
