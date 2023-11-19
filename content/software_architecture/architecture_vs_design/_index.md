@@ -6,6 +6,7 @@ weight = 10
 {{% notice style="tip" title="Ressources" icon="fa fa-book" %}}
 - [Lesson 167 - Architecture vs Design](https://youtu.be/0tEBv2kAuNY)
 - [https://stackoverflow.com/questions/704855/software-design-vs-software-architecture](https://stackoverflow.com/questions/704855/software-design-vs-software-architecture)
+- [Chap3. - Java Application Architecture, Kirk Knoernschild](https://ptgmedia.pearsoncmg.com/images/9780321247131/samplepages/0321247132.pdf)
 {{% /notice %}} 
 
 
@@ -35,26 +36,5 @@ L'objectif de la Conception Logicielle est d'implémenter les exigences fonction
 
 On se concentre sur l'implémentation concrète d'une architecture. Par exemple, nous regardons comment nous allons implémenter la logique métier `m` en utilisant l'Architecture Hexagonale.
 
-## D'après Mark Richards et Neal Ford
-![Alt text](../images/architecture_vs_design.png)
-
-Comme le montre le diagramme, l'architecte est responsable de la mise en œuvre du projet. L'analyse des besoins de l'entreprise, extraire et de définir les caractéristiques  architecturales, Délectionner les modèles et styles d'architecture qui conviendraient et créer les composants du système. **Mais** avec cette vision l'architecte est déconnecté des équipes de développement et, de ce fait, l'architecture fournit rarement ce pour quoi elle a été conçue à l'origine. 
-
-![Alt text](../images/architecture_vs_design2.png)
-
-Le barrière virtuelle doit être supprimée et l'équipe doit être composée à la fois de l'architecte et des développeurs. Ce modèle facilite une communication bidirectionnelle forte entre l'architecture et le développement, il permet également à l'architecte d'assurer le mentorat et le coaching des développeurs de l'équipe.
-
->  Une collaboration étroite entre l'architecte et l'équipe de développement est essentielle à la réussite de tout projet logiciel. Mais où s'arrête l'architecture et où commence la
-commence la conception ? Nul part. Elles font toutes deux partie du cycle de vie d'un projet logiciel et doivent toujours être synchronisées.
-
-## Conclusion
-**Architecture Logicielle**
-- *Quoi?* faire pour répondre au besoin client
-- *Pourquoi?* faire ce choix
-- Se concentre sur les choix stratégiques
-- Language, framework, périmètre, méthodologie de travail, etc 
-
-**Conception Logicielle**
-- Complète l'Architecture Logicelle avec le *Comment?* implémenter
-- Se concentre sur les contraintes locales 
-- Design Patterns, SOLID, etc ...
+## Etant donné que ...
+Il est très compliqué de bien cerner la différence entre les deux, le mieux est de laisser les spécialistes du domaine apporter leurs éléments de réponse. Je vous conseille donc de lire les visions proposées par Marc Richard et Grady Booch.

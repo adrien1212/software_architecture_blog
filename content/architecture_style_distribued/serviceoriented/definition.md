@@ -43,7 +43,7 @@ Les services d'une SOA doivent être couplés de manière faible et dépendre au
 
 ### Service abstraction principle
 
-Les clients ou les utilisateurs de service d'une SOA doivent connaître la logique de code ou les détails de mise en œuvre du service. Ils doivent considérer les services comme une boîte noire. Les clients obtiennent les informations nécessaires relatives à la fonction et à l'utilisation du service via des contrats de service et autres documents de description du service.
+Les clients ou les utilisateurs de service d'une SOA ne doivent pas connaître la logique de code ou les détails de mise en œuvre du service. Ils doivent considérer les services comme une boîte noire. Les clients obtiennent les informations nécessaires relatives à la fonction et à l'utilisation du service via des contrats de service et autres documents de description du service.
 
 ### Service granularity principle
 
