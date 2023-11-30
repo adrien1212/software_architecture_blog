@@ -19,20 +19,10 @@ enableRobotsTXT = true
   titleSeparator = "-"
   externalLinkTarget = "_blank"
   themeVariant='my-custom-variant'
-  custom_css = ["https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css","css/adoc.css"]
+  custom_css = ["https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"]
 
 # these values are hugo built in markup config
 [markup.highlight]
-  anchorLineNos = false
-  codeFences = true
-  guessSyntax = false
-  hl_Lines = ''
-  lineAnchors = ''
-  lineNoStart = 1
-  lineNos = false
-  lineNumbersInTable = false
-  noClasses = false
-  noHl = false
   style = 'monokailight'
   tabWidth = 4
 

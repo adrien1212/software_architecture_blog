@@ -9,12 +9,14 @@ description = "Apprennez l'Architecture Logicielle (Software Architecture) - arc
 {{% /notice %}}
 
 
-> Plongez avec moi dans l'univers passionnant de l'architecture logicielle, où les idées prennent vie et où le code devient une œuvre d'art technologique
+> A travers ce blog/cours, mon objectif est de vous plonger dans le monde captivant de l'architecture logicielle. Vous découvrirez les principes qui guident la création des logiciels, où du simple code se métamorphose en une véritable œuvre architecturale.
+
 
 Nous y aborderons à la fois la conception logicielle et l'architecture logicielle. L'écriture de code propre, efficace et maintenable est l'une des compétences les plus précieuses que vous puissiez acquérir.
 
 ![mindmap](/images/mindmap.svg)
 
+Dans chaque section vous retrouverez les sources détaillant le concept.
 Vous pouvez également retrouver d'autres cours et articles sur mon site principal
 [https://adriencaubel.fr](https://adriencaubel.fr)
 

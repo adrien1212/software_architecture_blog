@@ -1,6 +1,6 @@
 +++
 title = "Inversion de Dépendences"
-weight = 15
+weight = 30
 +++
 
 Afin de comprendre les architectures suivantes il est primordial de comprendre le concept d'inversion de dépendances (*Dependency Inversion*).

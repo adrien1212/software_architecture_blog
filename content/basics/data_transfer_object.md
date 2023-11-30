@@ -1,7 +1,7 @@
 +++
 title = 'Data Transfer Object'
 date = 2023-10-27T18:26:00+02:00
-weight = 30
+weight = 20
 +++
 
 ## Définition

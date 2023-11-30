@@ -1,6 +1,6 @@
 +++
-title = "Couplage et Cohesion"
-weight = 40
+title = "Solution"
+weight = 10
 +++
 
 {{% notice style="tip" title="Ressource" icon="fa fa-icon" %}}
@@ -10,5 +10,3 @@ weight = 40
 {{% notice style="warning" title=" " icon=" " %}}
 L'objectif est de respecter le principe " *Low coupling, High cohésion* "
 {{% /notice %}}
-
-La ressource explique parfaitement ce principe
