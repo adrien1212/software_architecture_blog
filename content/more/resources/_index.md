@@ -12,6 +12,15 @@ Concernant les sections dédiées à la modularité j'ai pris appuis sur livre [
 
 Egalement de nombreux blogs, discussions (stackexchanges) m'ont permis d'approfondir la réfléxion de la partie Concept Fondamentaux. Vous retrouverez des cours et articles complémentaires sur mon site web [adriencaubel.fr](https://adriencaubel.fr)
 
+### Recommandations
+- [The Ultimate List of Best Software Architecture Books (2024)](https://www.workingsoftware.dev/the-ultimate-list-of-software-architecture-books-in-2024/)
+
+Les livres ci-dessous sont une sélection parmi ceux que j'ai lus:
+- [Fundamentals of Software Architecture: An Engineering Approach](https://www.amazon.fr/Fundamentals-Software-Architecture-Comprehensive-Characteristics/dp/1492043451)
+- [Java Application Architecture: Modularity Patterns](https://www.amazon.fr/Java-Application-Architecture-Modularity-Patterns/dp/0321247132)
+- [Patterns of Enterprise Application Architecture](https://www.amazon.fr/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420)
+
+
 [^1]: Aucun lien n'est affilié.
 
 ## Wikipedia
@@ -19,6 +28,9 @@ Egalement de nombreux blogs, discussions (stackexchanges) m'ont permis d'approfo
 - [Software Design](https://en.wikipedia.org/wiki/Software_design)
 
 ## Awesome Blog!
+Liste de blogs sur l'architecture logicielle 
+- https://awesome-architecture.com/
+
 Voici quelques blogs liés au sujet de l'architecture logicielle.
 
 - [https://softwarearchitecturefordevelopers.com/](https://softwarearchitecturefordevelopers.com/)
