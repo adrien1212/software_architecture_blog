@@ -1,8 +1,8 @@
 +++
 archetype = "chapter"
-menuPre = "7. "
+menuPre = "8. "
 title = "Architecture Antipattern"
-weight = 10
+weight = 80
 +++
 
 Dans ce chapitre nous discutons de certain Antipatterns Architecturaux.

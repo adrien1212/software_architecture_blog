@@ -1,13 +1,14 @@
 +++
-menuPre = " - 5.1 "
+menuPre = " - 6.1 "
 linkTitle = "Monolithiques"
 title = "Architectures Monolithiques"
-weight = 6
+weight = 61
 +++
 
 Sur cette page on détaille les caractéristiques générales d'une architecture monolithique
 
 ## Inconvénients généraux
+
 - Déployabilité (faible) : L'ensemble de l'application ou du site web doit être déployé en une seule unité, ce qui rend les déploiements fréquents difficiles. Même le plus simple des changements nécessite une construction et un déploiement complets de l'ensemble de l'application.
 
 - Tolérance aux pannes (faible) : Du à son caractère monolithique si une partie une de l'architecture provoque une erreur hors mémoire, l'ensemble de l'unité d'application est affectée et tombe en panne.
