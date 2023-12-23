@@ -3,6 +3,7 @@ archetype = "chapter"
 menuPre = "7. "
 title = "Patrons Architecturaux"
 weight = 70
+addBrBefore = true
 +++
 
 {{% notice style="tip" title="Ressources" icon="fa fa-book" %}}

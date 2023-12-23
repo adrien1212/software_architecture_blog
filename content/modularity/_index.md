@@ -3,6 +3,7 @@ menuPre = "5. "
 archetype = "chapter"
 title = "Modularité"
 weight = 50
+addBrBefore = true
 +++
 
 {{% notice style="tip" title="Ressource" icon="fa fa-book" %}}

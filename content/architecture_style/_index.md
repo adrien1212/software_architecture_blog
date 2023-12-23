@@ -3,6 +3,7 @@ archetype = "chapter"
 menuPre = "6. "
 title = "Styles Architecturaux"
 weight = 60
+addBrBefore = true
 +++
 
 > Nous définissons un style d'architecture comme la structure globale entre de l'interface utilisateur et le backend (e.g. layered architecture avec déploiement monolithique) et la manière dont le code interagit avec la base de données.
