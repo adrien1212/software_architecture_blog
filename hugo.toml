@@ -10,6 +10,7 @@ enableRobotsTXT = true
   home = ["HTML", "RSS", "SEARCH", "SEARCHPAGE"]
 
 [params]
+  canonical = 'https://softwarearchitecture.fr/'
   author.name = "Adrien CAUBEL"
   description = "Apprennez l'Architecture Logicielle"
   #alwaysopen = true
