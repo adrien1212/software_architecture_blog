@@ -1,7 +1,7 @@
 +++
 menuPre = " - 6.3 "
-linkTitle = "Alternative"
-title = "Architectures Alternative"
+linkTitle = "Alternatives"
+title = "Architectures Alternatives"
 weight = 63
 +++
 

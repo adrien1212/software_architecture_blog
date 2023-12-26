@@ -8,7 +8,7 @@ addBrBefore = true
 
 {{% notice style="tip" title="Ressource" icon="fa fa-icon" %}}
 
-- [Principes SOLID et Design Patterns - Jose Paumard](https://www.youtube.com/watch?v=KHowUWvhSws&list=PLzzeuFUy_CngSfFq9-TJ0r8NC7Y3hSNpe)
+- [[Playlist] Principes SOLID et Design Patterns - Jose Paumard](https://www.youtube.com/watch?v=KHowUWvhSws&list=PLzzeuFUy_CngSfFq9-TJ0r8NC7Y3hSNpe)
 
 {{% /notice %}}
 

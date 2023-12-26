@@ -5,19 +5,20 @@ title = "Architectures Distribuées"
 weight = 62
 +++
 
+{{% notice style="warning" title= " " icon=" " %}}
+A distributed architecture is a group of deployment units connected through remote access protocols.
+{{% /notice %}}
+
 ## Avantages généraux
 
-- Résilience : si un service tombe les autres non
-- Scalabilité : e.g. netflix pique vers 20h
-- Agilité : des équipes plus autonomes; on va pouvoir cloisoner les équipes, chacune travaille sur ce microservice => on évite le code spaguehtti
-  Et les équipes n'ont pas besoin d'utiliser le même langage ni les même techniques, on expose juste nos services via interface
+- Tolérance aux pannes : si un service s'effondre, le reste de l'application peut conitnuée à être utilisé
+- Scalabilité : nous pouvons facilement scaler le service ayant une surcharge d'utilisation sans avoir à scaler l'application dans sa globalité
+- Agilité : des équipes plus autonomes; on va pouvoir cloisoner les équipes, chacune travaille sur ce microservice (e.g. pas le même langage, pas la même organisation). La communication entre service se fera au travers d'interface (e.g. API Rest)
 
 ## Inconvénients généraux
 
 Mais un système distribué a également de nombreux désavantages
 
-- Compliqué à mettre en place
-- Compliqué à monitorer
-- Il faut une équipe dédié pour maintenir l'architecture et le réseaux
-- Le cout est très élevé. E.g. Prime Video sont passés du microservice au monolith pour réduire leur cout de 90%
-  100 ms => alors 200 réplicat (2 par ms) => un monolithique coute moins cher
+- Mise en place compliqué : là où avec une architecture monolithique le déploiement se faisait sur un seul serveur, ici notre application est distribué sur un ensemble de serveurs qu'il va falloir gérer
+- Monitoring : nous devons nous aussurer que l'ensemble des services, des serveurs et du résau est opérationnel. Cela demande plus de travail que dans une architecture monolithique car nous gérons des réplicats sur une multitude de serveurs. Il faut une équipe dédié pour maintenir l'architecture et le réseaux
+- Coût élevé : par conséquent, nous avons un coût plus élevé. On notera que certaine entreprise reviennent en arrière pour réduire leur coût (e.g. Prime Video sont passés du microservice au monolith pour réduire leur cout de 90%)

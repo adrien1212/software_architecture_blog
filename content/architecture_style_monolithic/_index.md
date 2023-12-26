@@ -5,7 +5,9 @@ title = "Architectures Monolithiques"
 weight = 61
 +++
 
-Sur cette page on détaille les caractéristiques générales d'une architecture monolithique
+{{% notice style="warning" title= " " icon=" " %}}
+An architecture is monolithic when all the code is a single unit of deployment.
+{{% /notice %}}
 
 ## Inconvénients généraux
 
