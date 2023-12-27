@@ -55,3 +55,5 @@ La solution consiste à séparer les fonctionnalités dans trois classes distinc
 - **Augmente la réutilisation du code** : Le code qui respecte le SRP est souvent plus modulaire et réutilisable. Cela signifie que les développeurs peuvent facilement réutiliser un module (e.g. une classe) dans d'autres parties du système. Par exemple, si un autre projet à uniquement besoin de la classe `CalculateurSalaire` nous n'embarquons que cette classes avec ces méthodes. Sans le SRP, nous aurions du embarquer `Employe` avec des fonctionnalités tierces qui seraient inutiles pour le nouveau projet.
 
 - **Facilité de tester** : Le code qui viole le SRP est généralement plus difficile à tester. Avec de multiples responsabilités imbriquées dans une classe, il devient difficile d'isoler et de tester des fonctionnalités individuelles. Cela peut conduire à des tests moins efficaces et moins complets, augmentant ainsi les risques de bugs non détectés.
+
+## Lien avec Couplage et Cohésion
