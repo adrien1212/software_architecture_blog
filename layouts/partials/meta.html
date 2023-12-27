@@ -20,8 +20,3 @@
     {{- partial "opengraph.html" . }}
 
 
-    {{- if isset .Params "canonical" -}}
-        <link rel="canonical" href="{{ .Params.baseURL }}" />
-    {{- else -}}
-        <link rel="canonical" href="{{ .Permalink }}" />
-    {{- end }}
