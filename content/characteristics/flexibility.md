@@ -1,5 +1,5 @@
 +++
-title = "Flexibility"
+title = "Flexibilité"
 weight = 50
 +++
 
