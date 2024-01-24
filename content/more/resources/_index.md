@@ -36,13 +36,22 @@ Liste de blogs sur l'architecture logicielle
 
 - https://awesome-architecture.com/
 
+Liste de ressources sur l'architecture logicielle
+
+- https://www.reddit.com/r/softwarearchitecture/comments/16usw23/megathread_software_architecture_books_resources/
+
 Voici quelques blogs liés au sujet de l'architecture logicielle.
 
+- [Software Architecture Guide - Martin Fowler](https://martinfowler.com/architecture/)
 - [Software Architure for Developers](https://softwarearchitecturefordevelopers.com/)
 - [https://www.kamilgrzybek.com/blog/categories/architecture-and-design](https://www.kamilgrzybek.com/blog/categories/architecture-and-design)
 - [Enterprise Craftsmanship](https://enterprisecraftsmanship.com/posts)
 - [The Valuable Dev](https://thevaluable.dev/post/)
 - [Herberto Graça](https://herbertograca.com/tag/software-architecture/)
+
+## Autres articles
+
+- [Software Engineer to Software Architect](https://medium.com/@yt-cloudwaydigital/from-software-developer-to-software-architect-roadmap-to-success-695951521d9b)
 
 ## Création du site
 
