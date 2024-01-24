@@ -4,7 +4,7 @@ weight = 3
 +++
 
 {{% notice style="tip" title="Ressources" icon="fa fa-book" %}}
-[Partie 6. - Pros and Cons](https://jmgarridopaz.github.io/content/hexagonalarchitecture.html#tc2-4)
+[Partie 6. - Pros and Cons](https://jmgarridopaz.github.io/content/hexagonalarchitecture.html#tc6)
 {{% /notice %}}
 
 ## Avantages

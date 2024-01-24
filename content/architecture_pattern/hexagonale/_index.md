@@ -1,12 +1,13 @@
 +++
-title = "Architecture Haxagonale"
+title = "Architecture Hexagonale"
 weight = 10
 +++
 
 {{% notice style="tip" title="Ressources" icon="fa fa-book" %}}
-[Hexagonal architecture - original post](https://alistair.cockburn.us/hexagonal-architecture/)
-[Hexagonal architecture - ensemble d'articles détaillés](https://jmgarridopaz.github.io/content/articles.html)
-{{% /notice %}}
+
+- [Hexagonal architecture - original post](https://alistair.cockburn.us/hexagonal-architecture/)
+- [Hexagonal architecture - ensemble d'articles détaillés](https://jmgarridopaz.github.io/content/articles.html)
+  {{% /notice %}}
 
 > Allow an application to equally be driven by users, programs, automated test or batch scripts, and to be developed and tested in isolation from its eventual run-time devices and databases.
 

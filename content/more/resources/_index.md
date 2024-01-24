@@ -42,6 +42,7 @@ Voici quelques blogs liés au sujet de l'architecture logicielle.
 - [https://www.kamilgrzybek.com/blog/categories/architecture-and-design](https://www.kamilgrzybek.com/blog/categories/architecture-and-design)
 - [Enterprise Craftsmanship](https://enterprisecraftsmanship.com/posts)
 - [The Valuable Dev](https://thevaluable.dev/post/)
+- [Herberto Graça](https://herbertograca.com/tag/software-architecture/)
 
 ## Création du site
 
