@@ -5,6 +5,7 @@ weight = 5
 
 {{% notice style="tip" title="Ressource" icon="fa fa-icon" %}}
 
+- [What Is Software Architecture - Bredemeyer Consulting](https://www.bredemeyer.com/whatis.htm)
 - [https://martinfowler.com/architecture/](https://martinfowler.com/architecture/)
   {{% /notice %}}
 
@@ -16,12 +17,16 @@ relationships to each other and the environment, and the principles governing it
 [^1]: IEEE 1471-2000
 {{% /notice %}}
 
+{{% notice style="warning" title= "Grady Booch" icon=" " %}}
+Architecture represents the significant design _decisions_ that shape a system, where significant is measured by cost of change.
+{{% /notice %}}
+
 {{% notice style="warning" title= "Ralph Johnson" icon=" " %}}
 In most successful software projects, the expert developers working on that
 project have a shared understanding of the system design. This shared
-understanding is called “architecture.” This understanding includes how
+understanding is called “architecture.” This understanding includes _how
 the system is divided into components and how the components interact
-through interfaces. These components are usually composed of smaller
+through interfaces_. These components are usually composed of smaller
 components, _but the architecture only includes the components and interfaces that are understood by all the developers_ . . . Architecture is about
 the important stuff. Whatever that is.. [^1]
 [^1]: [https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf](https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf)

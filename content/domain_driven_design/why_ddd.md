@@ -20,3 +20,11 @@ Le DDD propose de s'attaquer à la source des echecs avec un angle différent. U
 - Les patterns tactiques du DDD nous permettent d'écrire du code qui refléte le domaine métier (business logic), à répondre à ses objectifs et à parler le langage métier.
 
 Les patterns _stratégiques_ et _tactiques_ du DDD alignent la conception du logiciel sur le domaine d'activité. D'où le nom (business) domain-driven (software) design.
+
+## Comment ?
+
+Avec l'approche DDD l'implémentation d'un logiciel consiste en plusieurs pièces d'un puzzle :
+
+- Se concentrer sur le domaine métier
+- Explorer le _modèle_ avec l'aide des experts métiers
+- Parler un même _ubiquitous language_ dans un _Bounded Context_

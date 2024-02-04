@@ -13,4 +13,11 @@ L'architecture microservices est l'une des approches architecturales qui a connu
 
 Elle prend son inspiration du Domain-Driven Design (DDD), une approche conceptuelle et méthodologique du développement logiciel qui met l'accent sur la modélisation du domaine métier. Notament de la notion centrale de _Bounded Context_.
 
+{{% notice style="warning" title= " " icon=" " %}}
+
+Le style architectural des microservices est une approche qui consiste à développer une application unique sous la forme d'une suite de petits services, chacun s'exécutant dans son propre processus et communiquant à l'aide de mécanismes légers, souvent une API HTTP.
+{{% /notice %}}
+
 ![Alt text](images/microservices.png)
+
+![Alt text](images/microservices2.png?width=40pc)
