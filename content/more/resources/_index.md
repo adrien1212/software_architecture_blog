@@ -30,6 +30,13 @@ Les livres ci-dessous sont une sélection parmi ceux que j'ai lus:
 - [Software Architecture](https://en.wikipedia.org/wiki/Software_architecture)
 - [Software Design](https://en.wikipedia.org/wiki/Software_design)
 
+## GitHub
+
+Quelques repositories github sur l'architecture logicielle
+
+- [Domain-Driven Hexagon](https://github.com/Sairyss/domain-driven-hexagon?tab=readme-ov-file#application-services)
+- [Modular-monolith-with-ddd](https://github.com/kgrzybek/modular-monolith-with-ddd)
+
 ## Awesome Blog!
 
 Liste de blogs sur l'architecture logicielle

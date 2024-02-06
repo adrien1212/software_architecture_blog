@@ -4,13 +4,16 @@ weight = 20
 +++
 
 {{% notice style="tip" title= "Ressources" icon="fa fa-book" %}}
+
 - [https://www.ibm.com/blog/soa-vs-microservices/](https://www.ibm.com/blog/soa-vs-microservices/)
-{{% /notice %}} 
+- [https://badia-kharroubi.gitbooks.io/microservices-architecture/content/](https://badia-kharroubi.gitbooks.io/microservices-architecture/content/)
+  {{% /notice %}}
 
 > L'architecture de microservices est une évolution du style d'architecture de SOA.
 
 ## Périmètre
-Dans l'introduction de ce chapitre j'évoquais SOA comme une "philosophie" à adopter dans son organisation. 
+
+Dans l'introduction de ce chapitre j'évoquais SOA comme une "philosophie" à adopter dans son organisation.
 
 En effet l'architecture orientée services (SOA) a une portée d'entreprise, elle est conçu pour répondre aux besoins d'intégration et de collaboration d'une entreprise entière, englobant diverses unités commerciales, départements et systèmes.
 
@@ -23,20 +26,22 @@ Quant à elle l'architecture microservices a une portée plus ciblée au niveau 
 ## "Quelques autres différences"
 
 {{% notice style="note" title= "" icon="" %}}
-La notion importante à retenir ici est le *périmètre* de chaque architecture.
-{{% /notice %}} 
+La notion importante à retenir ici est le _périmètre_ de chaque architecture.
+{{% /notice %}}
 
+Nous détaillons ici d'autres différences pour comparer ces deux architectures même si nous devrions pas les évoquer (périmètre différent).
 
- Nous détaillons ici d'autres différences pour comparer ces deux architectures même si nous devrions pas les évoquer (périmètre différent).
+**Communication**
 
-**Communication**  
-- Dans une architecture SOA la communication se fait au travers d'un ESB, la rendant ainsi vulnérable en cas de problème sur ce dernier. 
-- Avec l'architecture microservices, les services communiquent via des *lightweight messaging protocols* (e.g. HTTP, REST, JMS). Les services peuvent communiquer de manière asynchrones (event, publish/subscribe) à travers ces APIs pour permettre à un composant microservices de rester informé des modifications apportées si celui-ci tombe (shutdown).
+- Dans une architecture SOA la communication se fait au travers d'un ESB, la rendant ainsi vulnérable en cas de problème sur ce dernier.
+- Avec l'architecture microservices, les services communiquent via des _lightweight messaging protocols_ (e.g. HTTP, REST, JMS). Les services peuvent communiquer de manière asynchrones (event, publish/subscribe) à travers ces APIs pour permettre à un composant microservices de rester informé des modifications apportées si celui-ci tombe (shutdown).
 
-**Source de véritié**  
+**Source de véritié**
+
 - Avec une archiecture SOA nous avons une base de données centrale qui est partagée par plusieurs services.
 - Dans une architecture microservices, chaque services possède sa propre base de données. On préfèrera ainsi dupliquer une donnée plutôt que se la partager entre deux microservices.
 
-**Granularité**  
-- Les architectures microservices sont composées de services hautement spécialisés, chacun d'entre eux étant conçu pour faire une chose très bien. 
+**Granularité**
+
+- Les architectures microservices sont composées de services hautement spécialisés, chacun d'entre eux étant conçu pour faire une chose très bien.
 - Les services qui composent la SOA, en revanche, peuvent aller de petits services spécialisés à des services à l'échelle de l'entreprise.
