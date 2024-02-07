@@ -1,9 +1,7 @@
 +++
-title = "Objectifs"
+title = "Description des chapitres"
 weight = 1
 +++
-
-## Description des chapitres
 
 ### L'architecture Logicielle
 
