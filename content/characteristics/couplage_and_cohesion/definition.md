@@ -1,6 +1,6 @@
 +++
 title = "Définition"
-weight = 10
+weight = 1
 +++
 
 {{% notice style="tip" title="Ressource" icon="fa fa-icon" %}}
