@@ -8,6 +8,10 @@ description = "Apprennez l'Architecture Logicielle (Software Architecture) - arc
 Ce blog est un **recueil de ressources** sur l'Architecture Logicielle. Ainsi toutes les sources, références et crédits liés au contenu de ce cours sont répertoriés sur la page dédiée aux [ressources](../more/resources/).
 {{% /notice %}}
 
+{{% notice style="note" title="L'architecture Logicielle est compliquée" icon=" " %}}
+“Software architecture” is the stuff you can’t Google answers for
+{{% /notice %}}
+
 > A travers ce blog/cours, mon objectif est de vous plonger dans le monde captivant de l'architecture logicielle. Vous découvrirez les principes qui guident la création des logiciels, où du simple code se métamorphose en une véritable œuvre architecturale.
 
 ![mindmap](/images/mindmap.svg)
