@@ -32,3 +32,12 @@ Il est primordial pour un architecte logiciel d'avoir des connaissances dans le 
 Ainsi en plus des compétances technique, l'architecte devra évoluer fonctionnellement. Dans le cas contraire, il lui sera très difficile de comprendre les attentes et besoins métiers et d'y répondre de la plus juste des manière.
 
 > Les architectes les plus performants sont ceux qui possèdent des connaissances pratiques/techniques étendues ainsi qu'une solide connaissance de leur domaine métier.
+
+## Avoir des connaissances sur les non-requirement
+
+Ce terme n'indique pas des choses qui ne sont pas requises, il se réfère plutôt à des exigences qui ne sont énoncées nulle part.
+Cela inclut le contexte, les suppositions tacites, les dépendances cachées et d'autres choses qui n'ont jamais été explicitées.
+
+On trouve la scalabilité, la maintenabilité, la disponibilité, l'intéropérabilité, etc ...
+
+Débusquer ces exigences implicites et les rendre explicites est l'une des contributions les plus précieuses de l'architecte.

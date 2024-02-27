@@ -42,3 +42,5 @@ An architecture is the set of significant decisions about the organization of a 
 - Prendre des décisions sur l'organisation du logiciel, ses composants et leurs relations
 - Minimiser le coût du changement en écrivant un logiciel flexible
 - Les développeurs et les architectes doivent avoir une compréhension commune de comment diviser le système et comment les composants intéragissent entre eux. L'architecture n'est pas qu'un concept technique c'est également du _social_.
+
+> The best architecture is the one that fits the business needs, not the one that mimics the tech giants (Google, Netflix, ...)
