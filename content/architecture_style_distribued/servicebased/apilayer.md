@@ -4,8 +4,10 @@ weight = 20
 +++
 
 {{% notice style="tip" title="Ressources" icon="fa fa-book" %}}
-[6 More Microservices Interview Questions](https://blog.bytebytego.com/p/6-more-microservices-interview-questions)
-{{% /notice %}}
+
+- [6 More Microservices Interview Questions - question 1](https://blog.bytebytego.com/p/6-more-microservices-interview-questions)
+- [API Gateway](https://microservices.io/patterns/apigateway.html)
+  {{% /notice %}}
 
 Nous pouvons ajouter une couche "API Layer" qui va faire office de _reverse proxy_ ou de _gateway_ entre nos services et l'interface utilisateur.
 
@@ -34,4 +36,4 @@ Il est parfois souhaité de limiter le nombre de de connexion d'un adresse IP, d
 
 ![ratelimiter](../images/ratelimiter.png)
 
-Et si nous avons une architecture microservice possédant une API Gateway qui gère l'authentification, etc ... nous pouvons y rajouter le Rate Limiter
+Et si nous avons une architecture microservice possédant une API Gateway qui gère l'authentification, etc ... nous pouvons y rajouter le Rate Limiter. Si une requête à atteint le nombre limite de demande alors une erreur 429 (too many request) est renvoyée.
