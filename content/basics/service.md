@@ -47,7 +47,7 @@ Caractéristisques :
 
 - répond à un seul objectif (e.g. Service création de tickets)
 - d'une granularité fine
-- posséde leur propre base de données ([bounded context]({{% relref "../../architecture_style_distribued/microservices/bounded_context.md" %}}))
+- posséde leur propre base de données ([bounded context]({{% relref "bounded_context" %}}))
 - communique fréquement avec les autres (micro)services
 
 ### Service-Based

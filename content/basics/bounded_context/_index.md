@@ -1,6 +1,6 @@
 +++
 title = "Bounded Context"
-weight = 10
+weight = 50
 +++
 
 {{% notice style="tip" title= "Ressources" icon="fa fa-book" %}}
@@ -48,4 +48,12 @@ Malgré que les Bounded Context sont indépendants ils doivent interagir les uns
 {{% notice style="tip" title= "Ressources" icon="fa fa-book" %}}
 
 - Chapitre 4 - Learning Domain Driven Design
+  {{% /notice %}}
+
+# Bounded Context VS Microservices
+
+{{% notice style="tip" title= "Ressources" icon="fa fa-book" %}}
+
+- [Bounded Contexts are NOT Microservices](https://vladikk.com/2018/01/21/bounded-contexts-vs-microservices/)
+- [Video - Bounded Contexts, Microservices, and Everything In Between - KanDDDinsky 2018 ](https://youtu.be/dlnu5pSsg7k)
   {{% /notice %}}

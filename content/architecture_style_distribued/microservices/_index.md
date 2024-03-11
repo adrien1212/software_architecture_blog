@@ -7,6 +7,8 @@ alwaysopen = false
 {{% notice style="tip" title= "Ressources" icon="fa fa-book" %}}
 
 - [https://martinfowler.com/microservices/](https://martinfowler.com/microservices/)
+- [https://microservices.io/patterns/](https://microservices.io/patterns/)
+- [https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices)
   {{% /notice %}}
 
 L'architecture microservices est l'une des approches architecturales qui a connu une popularité croissante et rapide au cours des dernières années.
