@@ -9,6 +9,8 @@ weight = 40
 - [Software Engineer to Software Architect](https://medium.com/@yt-cloudwaydigital/from-software-developer-to-software-architect-roadmap-to-success-695951521d9)
   {{% /notice %}}
 
+  ![architect role](../images/architect_role.png)
+
 ## System Design
 
 L'architecte logiciel est responsable de la conception de haut niveau du système logiciel. Il s'agit notamment de définir les composants du système et leurs interactions. Il prend des décisions en s'appuyant sur les besoins métiers (fonctionnels et non-fonctionnels) et sur les compétences de l'équipe de réalisation.  
