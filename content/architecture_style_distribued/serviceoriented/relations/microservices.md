@@ -7,6 +7,7 @@ weight = 20
 
 - [https://www.ibm.com/blog/soa-vs-microservices/](https://www.ibm.com/blog/soa-vs-microservices/)
 - [https://badia-kharroubi.gitbooks.io/microservices-architecture/content/](https://badia-kharroubi.gitbooks.io/microservices-architecture/content/)
+- [The Evolution of Microservices with SOA: Navigating the Architectural Landscape](https://foojay.io/today/evolution-of-microservices-from-soa-to-modern-architecture/)
   {{% /notice %}}
 
 > L'architecture de microservices est une évolution du style d'architecture de SOA.
