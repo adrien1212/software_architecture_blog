@@ -3,7 +3,7 @@ title = "Conclusion"
 weight = 30
 +++
 
-Il est compliquer de conclure simplement sur cette différence. Le plus important est de noter la **collaboration entre l'architecte logiciel et les développeurs** (voir [D'après Marc Richards]({{% relref "mark_richards_definition.md" %}}))
+Il est compliqué de conclure simplement sur cette différence. Le plus important est de noter la **collaboration entre l'architecte logiciel et les développeurs** (voir [D'après Marc Richards]({{% relref "mark_richards_definition.md" %}}))
 
 ## Architecture Logicielle
 
@@ -30,7 +30,7 @@ L'Architecture Logicielle se concentrer sur les principales décisions de concep
 En soit, toutes décisions qui a un impact sur les préoccupations des principales parties prenantes ou qui a un
 ou qui a un impact global sur le programme
 
-Et on ne se concentre pas sur les détails sans importance. Par exemple les décisions internes d'un composant : algorithmes internes, structures de données, modèles de conception locaux. ET qui n'ont pas d'impact sur les préoccupations des principales parties prenantes
+Et on ne se concentre pas sur les détails sans importance. Par exemple les décisions internes d'un composant : algorithmes internes, structures de données, modèles de conception locaux. ET qui n'ont pas d'impact sur les préoccupations des principales parties prenantes.
 
 ## Conception Logicielle
 
@@ -40,4 +40,4 @@ Et on ne se concentre pas sur les détails sans importance. Par exemple les déc
 
 ## Conclusion
 
-Gardez à l'esprit que la frontière est très mince, l'architecture et la conception logicielle sont fortement liée.
+Gardez à l'esprit que la frontière est très mince, l'architecture et la conception logicielle sont fortement liées.

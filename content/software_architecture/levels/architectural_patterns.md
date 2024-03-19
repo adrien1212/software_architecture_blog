@@ -4,16 +4,18 @@ weight = 10
 +++
 
 {{% notice style="tip" title="Ressources" icon="fa fa-book" %}}
+
 - [https://en.wikipedia.org/wiki/Architectural_pattern](https://en.wikipedia.org/wiki/Architectural_pattern)
-{{% /notice %}}
+  {{% /notice %}}
 
 {{% notice style="warning" title=" " icon=" " %}}
 Un patron architectural est une façon de résoudre un problème architectural récurrent.
 {{% /notice %}}
 
-Les Patrons Architecturaux (*Architectural Patterns*) sont des conceptions de niveau infénieur  qui aident à trouver des solutions spécifiques dans un style d'architecture. Ils ont un impact sur l'organisation hozizontale (e.g. struction du code dans une couche) et vertivale (e.g. comment une demande est traitée des couches externes vers les couches internes) du code.
+Les Patrons Architecturaux (_Architectural Patterns_) sont des conceptions de niveau inférieur qui aident à trouver des solutions spécifiques dans un style d'architecture. Ils ont un impact sur l'organisation horizontale (e.g. structuration du code dans une couche) et verticale (e.g. comment une demande est traitée des couches externes vers les couches internes) du code.
 
-Examples de Styles Architecturaux :
+Exemples de Styles Architecturaux :
+
 - Three-tier
 - Model-View-Controller
 - Model-View-ViewModel
@@ -21,6 +23,4 @@ Examples de Styles Architecturaux :
 - Sensor-controller-actuator
 - etc ... voir lien [wikipedia](https://en.wikipedia.org/wiki/Architectural_pattern)
 
-
 Par exemple, le MVC répond au problème de couplage fort entre la Vue et le Model
-
