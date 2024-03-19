@@ -1,6 +1,6 @@
 +++
 title = "D'après IEEE"
-weight = 20
+weight = 40
 +++
 
 {{% notice style="tip" title="Ressources" icon="fa fa-book" %}}
