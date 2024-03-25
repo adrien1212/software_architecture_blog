@@ -7,6 +7,7 @@ weight = 50
 
 - [https://martinfowler.com/bliki/BoundedContext.html](https://martinfowler.com/bliki/BoundedContext.html)
   {{% /notice %}}
+- [Différents types de relation](https://github.com/ddd-crew/context-mapping)
 
 {{% notice style="warning" title= " " icon=" " %}}
 Chaque service comprend tout ce qui lui est nécessaire pour fonctionner, classes, sous-composants, base de données.
@@ -50,7 +51,7 @@ Malgré que les Bounded Context sont indépendants ils doivent interagir les uns
 - Chapitre 4 - Learning Domain Driven Design
   {{% /notice %}}
 
-# Bounded Context VS Microservices
+## Bounded Context VS Microservices
 
 {{% notice style="tip" title= "Ressources" icon="fa fa-book" %}}
 
