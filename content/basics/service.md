@@ -25,12 +25,6 @@ Dans l'exemple de la vidéo, nous obtenons :
 
 Avec cette exemple, on voit que nos services peuvent être vus avec des granularités différentes.
 
-### Bibliothèque VS Service
-
-[https://martinfowler.com/articles/microservices.html#ComponentizationViaServices](https://martinfowler.com/articles/microservices.html#ComponentizationViaServices)
-
-Nous définissons les bibliothèques comme des composants liés à un programme et appelés à l'aide _in-memory function calls_ (i.g. appel classique d'une fonction), tandis que les services sont des composants _out-of-process_ qui communiquent avec un mécanisme tel qu'une demande de service web (http) ou un appel de procédure à distance (remote).
-
 ### Service as composant
 
 L'une des principales raisons d'utiliser les services comme composants (plutôt que comme bibliothèques) est que les services peuvent être déployés indépendamment les uns des autres. Si vous avez une application qui consiste en plusieurs bibliothèques dans un processus unique, une modification de l'un des composants entraîne le redéploiement de l'ensemble de l'application. En revanche, si cette application est décomposée en plusieurs services, on peut s'attendre à ce que de nombreuses modifications apportées à un seul service n'entraînent qu'un redéploiement de ce dernier.

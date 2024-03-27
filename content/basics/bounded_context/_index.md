@@ -6,8 +6,9 @@ weight = 50
 {{% notice style="tip" title= "Ressources" icon="fa fa-book" %}}
 
 - [https://martinfowler.com/bliki/BoundedContext.html](https://martinfowler.com/bliki/BoundedContext.html)
-  {{% /notice %}}
 - [Différents types de relation](https://github.com/ddd-crew/context-mapping)
+
+  {{% /notice %}}
 
 {{% notice style="warning" title= " " icon=" " %}}
 Chaque service comprend tout ce qui lui est nécessaire pour fonctionner, classes, sous-composants, base de données.

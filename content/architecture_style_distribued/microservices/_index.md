@@ -11,7 +11,8 @@ alwaysopen = false
 - [https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices)
   {{% /notice %}}
 
-L'architecture microservices est l'une des approches architecturales qui a connu une popularité croissante et rapide au cours des dernières années.
+Créée en 2011 et popularisée par Martin Fowler et James Lewis dans [leur article "Microservice"](https://martinfowler.com/articles/microservices.html)
+elle a qui a connu une popularité croissante et rapide au cours des dernières années.
 
 Elle prend son inspiration du Domain-Driven Design (DDD), une approche conceptuelle et méthodologique du développement logiciel qui met l'accent sur la modélisation du domaine métier. Notament de la notion centrale de _Bounded Context_.
 
