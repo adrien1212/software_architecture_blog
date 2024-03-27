@@ -8,9 +8,9 @@ weight = 45
 La modularité est toujours une bonne idée. Pour la mettre en place nous avons deux choix :
 
 - Créer des librairies (modules) : qui sont directement appelée (in-memory called)
-- Créer des services : qui eux sont appelée via des protocole standardisés (out-of-process)
+- Créer des services : qui eux sont appelée via des protocole standardisés (out-of-process). Par exemple, l'approche microservice préférera mettre en application la modularité en utilisant l'approche par services.
 
-Par exemple, l'approche microservice préférera mettre en application la modularité en utilisant l'approche par services.
+C'est pour cette raison, qu'un chapitre est dédié à la [modularité]({{% relref "/modularity/" %}}).
 
 ## Le conditionnement
 

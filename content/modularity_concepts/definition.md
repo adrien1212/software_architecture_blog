@@ -36,4 +36,4 @@ On peut également donner les caractéristique suivantes pour un module. Il est 
 
 ## Lien avec l'architecture logicielle
 
-> L'architecture Logicielle à pour objectif de **minimiser l'impact et le coût du changement**. La modularité est un intermédiaire important pour augmenter l'agilité architecturalle.
+> L'architecture Logicielle à pour objectif de **minimiser l'impact et le coût du changement**. La modularité est un intermédiaire important pour augmenter l'agilité architecturale.

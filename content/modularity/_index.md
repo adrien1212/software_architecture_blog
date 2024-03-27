@@ -12,9 +12,9 @@ addBrBefore = true
 - [18 Modularity Patterns (pdf)](/pdf/18-modularity-patterns.pdf)
   {{% /notice %}}
 
-Les notions de _module_ et de _modularité_ sont complémentaires à la notion de [Service]({{% relref "service.md" %}}). Les principes pour la conception de services peuvent être appliqués pour la conception de modules.
+Les notions de _module_ et de _modularité_ viennent compléter la définition d'un [Service]({{% relref "service.md" %}}). Les principes pour la conception de services peuvent être appliqués pour la conception de modules.
 
-Dans cette section, nous donnerons la définition d'un module en nous basant sur le livre _Java Application Architecture_ puis nous verons comment les principes de Module et de Service sont fortement liés.
+Dans cette section, nous donnerons la définition d'un module en nous basant sur le livre _Java Application Architecture_ puis nous verrons comment les principes de Module et de Service sont fortement liés.
 
 ## Mesurer la modularité
 
