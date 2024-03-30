@@ -30,7 +30,9 @@ Comme d'écrit [modularité]({{% relref "../../basics/module_vs_services.md" %}}
 L'architecture microservices utilisera la _Componentization via Services_ car utiliser des services permet :
 
 - d'avoir un déploiement indépendant des composants. Si on modifie un composant alors nous n'avons qu'à déployer se composant, tandis que si nous utilisons des librairies nous devrions redéployer tous les composants ayant une dépendance vers la librairie mise à jour.
+- chaque déploiement d'un microservice n'impactera les autres (_inflexible deployment_)
 - définition d'interface, lorsqu'on veut exposer notre service nous n'avons pas d'autre choix que de définir correctement nos APIs.
+- allocation de ressources (hardware) pour chaque service en fonction de ses besoins. Ceci n'étant pas possible si nous travaillons avec des librairies.
 
 ### Organized around Business Capabilities
 
