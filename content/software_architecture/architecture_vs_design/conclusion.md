@@ -1,6 +1,6 @@
 +++
 title = "Conclusion"
-weight = 30
+weight = 60
 +++
 
 Il est compliqué de conclure simplement sur cette différence. Le plus important est de noter la **collaboration entre l'architecte logiciel et les développeurs** (voir [D'après Marc Richards]({{% relref "mark_richards_definition.md" %}}))
@@ -41,3 +41,5 @@ Et on ne se concentre pas sur les détails sans importance. Par exemple les déc
 ## Conclusion
 
 Gardez à l'esprit que la frontière est très mince, l'architecture et la conception logicielle sont fortement liées.
+
+![archivsdesign](../images/architecture_vs_design3.png?width=30pc)
