@@ -27,6 +27,10 @@ L'architecte doit garder un oeil sur les équipes de réalisation. Il doit s'ass
 
 On ne lui demande pas d'être expert dans tous les domaines, mais l'architecte logiciel doit avoir des connaissances minimales dans plusieurs domaines informatiques (technologies, frameworks, plates-formes, et environnement). En effet, il doit être capable de sortir de sa zone de confort et de continuer à apprendre. Comprendre et suivre les tendances clés permet à l'architecte de se préparer aux futurs enjeux et de prendre une décision éclairée.
 
+### Faire des compromis
+
+L'architecte ne doit pas avoir un avis tranché (faire uniquement du microservice, uniquement sdu serverless, etc ...) mais doit continuellement comprendre le besoin afin de déterminer les **compromis** à effectuer pour répondre au besoin du client.
+
 ## Avoir des connaissances fonctionnelles
 
 Il est primordial pour un architecte logiciel d'avoir des connaissances dans le domaine de l'entreprise. Comme pour le paragraphe précédent, on ne lui demande pas d'être un expert métier, mais il doit avoir un certain niveau de _business domain expertise_.

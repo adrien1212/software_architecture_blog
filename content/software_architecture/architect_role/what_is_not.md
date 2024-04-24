@@ -43,3 +43,6 @@ Un architecte n'est pas un :
   scientists may get their papers published by making things sound complex
   and difficult to understand, an architect’s job is the inverse: making complex
   topics easy to digest
+
+
+> Great architects are like great chefs : it's not just about selecting ingredients; it's how you put them together
