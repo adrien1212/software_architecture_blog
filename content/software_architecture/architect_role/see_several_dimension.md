@@ -5,7 +5,7 @@ weight = 50
 
 {{% notice style="tip" title="Ressources" icon="fa fa-book" %}}
 
-- [https://youtu.be/w9a7eI6BlVc?list=PLsuboX68NN3DL-sYP16NRyaLFRvSexa_s&t=849](https://youtu.be/w9a7eI6BlVc?list=PLsuboX68NN3DL-sYP16NRyaLFRvSexa_s&t=849)
+- [https://youtu.be/w9a7eI6BlVc?t=1677](https://youtu.be/w9a7eI6BlVc?t=1677)
   {{% /notice %}}
 
 Un architecte doit être capable de cerner les différentes questions et problématique qui se cachent derrière un sujet. Pour illustrer, qu'est-ce qui pourrais mal se passer dans l'architecture suivante ?
