@@ -16,7 +16,7 @@ Nous repartons de l'architecture [Layered]({{% relref "../../architecture_style_
 ![Layered](../images/layered-detailled.png)
 
 ### 2. Architecture Layered à l'extrême
-Maintenant si on pousse le concept [d'inversion de dépendances]({{% relref "../../basics/dependency_inversion" %}})
+Maintenant si on pousse le concept [d'inversion de dépendances]({{% relref "../../basics_for_coding/dependency_inversion" %}})
  à l'extrême, on obtient l'architecture suivante :
 - Le module de haut niveau *Business* est indépendant du module de bas niveau (couplage faible)
 - Le module de bas niveau *Persistance* peut être utilisé dans plusieurs contextes

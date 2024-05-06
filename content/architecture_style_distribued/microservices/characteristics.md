@@ -22,7 +22,7 @@ weight = 15
 
 ### Componentization via Services
 
-Comme d'écrit [modularité]({{% relref "../../basics/module_vs_services.md" %}}), il y a deux moyens de réaliser de la modularité :
+Comme d'écrit [modularité]({{% relref "../../basics_for_modeling/module_vs_services.md" %}}), il y a deux moyens de réaliser de la modularité :
 
 - soit en créant des librairie
 - soit en créant des services

@@ -9,7 +9,7 @@ Supposons l'architecture suivante où la classe `A` dépend de la classe `B`.
 
 ![Alt text](../images/DI1-1.png)
 
-Dans cette conception, si `B` est ammenée à changer (e.g. montée en version), alors la classe `B` **et** la classe `A` vont devoir être rédéployées.
+Dans cette conception, si `B` est amenée à changer (e.g. montée en version), alors la classe `B` **et** la classe `A` vont devoir être rédéployées.
 On va devoir :
 - packager `B` **et** `A`
 - build `B` **et** `A`

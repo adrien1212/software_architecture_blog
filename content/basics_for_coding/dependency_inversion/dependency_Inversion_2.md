@@ -4,13 +4,12 @@ date = 2023-10-27T18:26:00+02:00
 weight = 20
 +++
 
-Dans la [partie précendente]({{% relref "/Dependency_Inversion_1.md" %}}) nous avons défini le notion d'intersion de dépendances. Dans cette seconde partie, nous l'améliorons.
 
 ## Retour sur la partie 1
 
-Dans la figure de gauche, nous avons un module de bas niveau qui défini une API (via un interface) et un module de haut niveau qui intéragie avec le module de bas niveau au travers de cette API.
+Dans la figure de gauche, nous avons un module de bas niveau qui défini une API (via un interface) et un module de haut niveau qui interagit avec le module de bas niveau au travers de cette API.
 
-Dans la figure de droite, nous avons chageons le propriétaire du contrat. C'est maintenant c'est le module de haut niveau qui définit les fonctionnalités qui sont requises par chaque implémentation de cette interface.
+Dans la figure de droite, nous avons changeons le propriétaire du contrat. C'est maintenant c'est le module de haut niveau qui définit les fonctionnalités qui sont requises par chaque implémentation de cette interface.
 
 Ainsi le module de haut niveau défini une abstraction où :
 

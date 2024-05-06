@@ -4,7 +4,7 @@ weight = 20
 +++
 
 {{% notice style="note" title="TL;DR" icon="" %}}
-N-tiered séparation *physique*, Layered séparation *logique* (cf [séparation Physique/Logique]({{% relref "../../basics/logical_physical_separation.md" %}}))
+N-tiered séparation *physique*, Layered séparation *logique* (cf [séparation Physique/Logique]({{% relref "../../basics_for_modeling/logical_physical_separation.md" %}}))
 {{% /notice %}}
 
 Presque toutes les personnes dans le monde du logiciel utilisent ces deux termes de manière interchangeable, comme s'il s'agissait exactement de la même chose. 

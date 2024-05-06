@@ -7,7 +7,7 @@ Là où l'atomicité est un principe trivial en architecture monolithique il dev
 
 ## Revoir la granularité (Boundaries)
 
-Etant donnée que la gestion des transactions entre plusieurs services est difficile, la première solution consiste à revoir la granularité de nos composants. Comme nous l'avons dans la section dédiée au [Bounded Context]({{% relref "../../../basics/bounded_context" %}}) les transactions _boundaries_ sont l'un des indicateurs courants de la granularité des services.
+Etant donnée que la gestion des transactions entre plusieurs services est difficile, la première solution consiste à revoir la granularité de nos composants. Comme nous l'avons dans la section dédiée au [Bounded Context]({{% relref "../../../basics_for_modeling/bounded_context" %}}) les transactions _boundaries_ sont l'un des indicateurs courants de la granularité des services.
 
 > Don’t do transactions in microservices — fix granularity instead!
 

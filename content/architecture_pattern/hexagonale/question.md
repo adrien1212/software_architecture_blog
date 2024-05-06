@@ -17,7 +17,7 @@ L'architecture hexagonale est comme suit, tout dépend de la couche Service (ou 
 
 La figure de gauche est la meilleure approche, regardons pourquoi.
 
-Pour ce faire, nous devons reprendre les bases avec l'inversion de dépendance. En effet, dans la [partie 2]({{% relref "../../basics/dependency_inversion/Dependency_Inversion_2.md" %}}) nous affirmions
+Pour ce faire, nous devons reprendre les bases avec l'inversion de dépendance. En effet, dans la [partie 2]({{% relref "../../basics_for_coding/dependency_inversion/Dependency_Inversion_2.md" %}}) nous affirmions
 
 {{% notice style="warning" title=" " icon=" " %}}
 L'inversion de dépendance permet aux éléments les plus stables de ne pas dépendre pas d'éléments moins stables, qui sont plus sujet aux changement.

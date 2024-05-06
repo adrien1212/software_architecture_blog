@@ -24,7 +24,7 @@ Pour que les partie prenantes communiquent efficacement nous devons éliminer le
 
 ### Lien avec le Bounded Context
 
-Il est possible qu'un terme soit identique entre plusieurs domaines. Dans ce cas, il faut regarder si ces domaines ne peuvent pas être vu comme étant des [bounded context]({{% relref "../../basics/bounded_context" %}}).
+Il est possible qu'un terme soit identique entre plusieurs domaines. Dans ce cas, il faut regarder si ces domaines ne peuvent pas être vu comme étant des [bounded context]({{% relref "../../basics_for_modeling/bounded_context" %}}).
 
 ![ubiquitous_language](../images/ubiquitous_language2.png)
 
