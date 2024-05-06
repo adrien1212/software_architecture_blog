@@ -14,7 +14,7 @@ Ce blog est un **recueil de ressources** sur l'Architecture Logicielle. Ainsi to
 
 > A travers ce blog/cours, mon objectif est de vous plonger dans le monde captivant de l'architecture logicielle. Vous découvrirez les principes qui guident la création des logiciels, où du simple code se métamorphose en une véritable œuvre architecturale.
 
-![mindmap](/images/mindmap.svg)
+![mindmap](/images/mind_map.svg)
 
 Dans chaque section vous retrouverez les sources détaillant le concept.
 Vous pouvez également retrouver d'autres cours et articles sur mon site principal
