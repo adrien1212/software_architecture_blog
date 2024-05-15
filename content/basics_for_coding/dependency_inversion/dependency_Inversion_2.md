@@ -4,6 +4,7 @@ date = 2023-10-27T18:26:00+02:00
 weight = 20
 +++
 
+Dans la [partie précédente]({{% relref "dependency_Inversion_1.md" %}}) nous avons défini le notion d'inversion de dépendances. Dans cette seconde partie, nous l'améliorons.
 
 ## Retour sur la partie 1
 
