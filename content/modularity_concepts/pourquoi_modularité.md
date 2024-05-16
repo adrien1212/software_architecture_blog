@@ -11,6 +11,8 @@ Lorsqu'on développe un logiciel on pense principalement à la _conception logiq
 
 Avec conception physique on se demande :
 
-- comment notre logiciel va être packagé en unité déployable
-- Quelle classe va dans qu'elle unité
-- Gérer les relation entre les unités
+- comment notre logiciel va être packagé en unité déployable (niveau système)
+- Gérer les relation entre les unités (niveau système)
+- Quelle classe va dans qu'elle unité (niveau code)
+
+> Tout comme les concepts fondamentaux la modularité peut être vue au niveau du code mais également au niveau du système.

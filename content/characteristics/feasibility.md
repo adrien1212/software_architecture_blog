@@ -1,6 +1,6 @@
 +++
 title = "Faisabilité"
-weight = 50
+weight = 30
 +++
 
 {{% notice style="tip" title="Ressource" icon="fa fa-icon" %}}

@@ -1,6 +1,6 @@
 +++
 title = "Flexibilité"
-weight = 50
+weight = 40
 +++
 
 {{% notice style="tip" title="Ressource" icon="fa fa-icon" %}}

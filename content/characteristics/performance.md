@@ -1,6 +1,6 @@
 +++
 title = "Performance"
-weight = 5
+weight = 60
 +++
 
 {{% notice style="warning" title=" " icon=" " %}}

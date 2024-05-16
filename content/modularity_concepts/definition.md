@@ -28,7 +28,7 @@ Un module est donc une pièce logiciel qui
 On peut également donner les caractéristique suivantes pour un module. Il est :
 
 - Déployable
-- Managable
+- Manageable
 - Testable
 - Réutilisable
 - Composable

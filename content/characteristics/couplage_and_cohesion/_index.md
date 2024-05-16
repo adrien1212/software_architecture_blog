@@ -1,6 +1,6 @@
 +++
 title = "Couplage et Cohesion"
-weight = 40
+weight = 5
 +++
 
 Les principales causes d'un logiciel pourrissant est *le code fortement couplé avec un trop grand nombre de dépendances*. Il est donc primordial d'avoir conscience de se principe pour réduire les coût de maintenance.
@@ -10,7 +10,7 @@ Les principales causes d'un logiciel pourrissant est *le code fortement couplé 
 - Java Application Architecture - Section 4.3
 {{% /notice %}}
 
-Dans les lignes suivantes nous allons détailler *pourquoi les dépendances excéssivent ruinent notre code ?*
+Dans les lignes suivantes nous allons détailler *pourquoi les dépendances excessive ruinent notre code ?*
 
 
 ### Gêne la maintenance

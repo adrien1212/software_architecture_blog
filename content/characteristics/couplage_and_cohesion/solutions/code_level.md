@@ -18,7 +18,7 @@ Le _couplage_ et la _cohésion_ sont liés :
 - Si tout ce qui va ensemble est ensemble, changer le module n'affectera pas les autres modules.
 - Si changer quelque chose dans le module A affecte le module B, cela signifie que cette chose du module A devrait être dans le module B.
 
-## Comment achever Low coupling, High cohésion
+## Low coupling, High cohésion niveau code
 
 {{% notice style="warning" title=" " icon=" " %}}
 L'objectif est de respecter le principe " _Low coupling, High cohésion_ "

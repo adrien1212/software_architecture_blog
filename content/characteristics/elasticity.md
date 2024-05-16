@@ -1,6 +1,6 @@
 +++
 title = "Elasticité"
-weight = 30
+weight = 20
 +++
 
 {{% notice style="tip" title="Ressource" icon="fa fa-icon" %}}
