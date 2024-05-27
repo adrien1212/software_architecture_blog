@@ -6,6 +6,8 @@ weight = 30
 {{% notice style="tip" title="Ressources" icon="fa fa-book" %}}
 
 - [What's the difference between Architectural Patterns and Architectural Styles?](https://stackoverflow.com/questions/3958316/whats-the-difference-between-architectural-patterns-and-architectural-styles)
+- [Architecture Styles VS Architecture Patterns - Mark Richards](https://youtu.be/I-yBv72RCeA?t=30)
+
 - [Contrasting architecture patterns with design patterns - O'Reilly](https://www.oreilly.com/radar/contrasting-architecture-patterns-with-design-patterns/)
   {{% /notice %}}
 
@@ -17,7 +19,15 @@ Tout est question de champ d'application :
 
 Dans l'ensemble de ce cours nous nous concentrerons sur les [styles architecturaux]({{% relref "architectural_styles.md" %}}) tout en évoquant très brièvement les [patrons architecturaux]({{% relref "architectural_patterns.md" %}}) mais nous ne reviendrons pas sur les [patrons de conception]({{% relref "design_patterns.md" %}}). Nous reviendrons seulement sur certains concepts fondamentaux nécessaire pour comprendre les niveaux supérieurs.
 
-{{% notice style="info" %}}
-Certaines architectures apparaissent à la fois comme un style architectural et un patron architectural. C'est le cas du _microservices_, wiképédia le considère comme un patron tandis que dans le livre Software Architecture Pattern les deux termes sont employés sans distinction pour décrire cette architecture.  
-Ainsi, ici on ne se prendra pas la tête que ce soit un style ou un patron s'il est intéressant de l'étudier nous le ferons.
-{{% /notice %}}
+## Styles vs Patterns
+> How does microservices differ from CQRS ?
+
+Nous reprenons les dires de Mark Richards 
+|                                          Styles Architecturaux                                         |                                                Patrons Architecturaux                                               |
+|:------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------:|
+| Forment l’architecture globale de l’ensemble du Système                                                | Peut-être utilisé à avec n’importe quel style  architectural; ils permettent de résoudre un problème en particulier |
+| Va influencer des aspects de la structure du Système (e.g. la communication, granularité des services) | Ne va pas influencer la structure globale du Système                                                                |                                                                         |
+
+![styles vs patterns](images/styles_vs_patterns.png)
+
+Par exemple la patron *circuit breaker* peut être mis en oeuvre avec n'importe quel style architectural
