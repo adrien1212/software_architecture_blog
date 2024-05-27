@@ -4,6 +4,12 @@ weight = 10
 alwaysopen = false
 +++
 
+
+{{% notice style="tip" title="Ressources" icon="fa fa-book" %}}
+
+- [Layered Architecture, de 1960 à Aujourd'hui](https://herbertograca.com/2017/08/03/layered-architecture/)  
+  {{% /notice %}}
+
 ## Objectif du découpage
 
 Le concept fondamentale de l'architecture n-tiers est le _Separation of Concern_. Les composants d'une couche spécifique ne traite que les informations spécifique à cette couche. Par exemple, l’IHM ne sait pas comment les utilisateurs sont récupérés de la base de données.

@@ -5,10 +5,8 @@ weight = 30
 
 {{% notice style="tip" title="Ressources" icon="fa fa-book" %}}
 
-- [What's the difference between Architectural Patterns and Architectural Styles?](https://stackoverflow.com/questions/3958316/whats-the-difference-between-architectural-patterns-and-architectural-styles)
-- [Architecture Styles VS Architecture Patterns - Mark Richards](https://youtu.be/I-yBv72RCeA?t=30)
-
-- [Contrasting architecture patterns with design patterns - O'Reilly](https://www.oreilly.com/radar/contrasting-architecture-patterns-with-design-patterns/)
+- [Architecture Styles VS Architecture Patterns - Mark Richards](https://youtu.be/I-yBv72RCeA?t=30)  
+- [Architectural Styles vs. Architectural Patterns vs. Design Patterns](https://herbertograca.com/2017/07/28/architectural-styles-vs-architectural-patterns-vs-design-patterns/)
   {{% /notice %}}
 
 Tout est question de champ d'application :
