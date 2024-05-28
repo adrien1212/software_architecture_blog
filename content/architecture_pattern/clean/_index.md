@@ -1,6 +1,6 @@
 +++
 title = "Clean Archiecture"
-weight = 1
+weight = 30
 +++
 
 {{% notice style="tip" title="Ressources" icon="fa fa-book" %}}
