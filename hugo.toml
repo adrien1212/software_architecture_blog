@@ -14,7 +14,17 @@ defaultContentLanguage = 'fr'
 
 # For search functionality
 [outputs]
-  home = ["HTML", "RSS", "SEARCH", "SEARCHPAGE"]
+  home = ["HTML", "htaccess", "RSS", "SEARCH", "SEARCHPAGE"]
+
+[outputFormats]
+  [outputFormats.htaccess]
+      baseName = ""
+      isPlainText = true
+      mediaType = "text/htaccess"
+
+[mediaTypes]
+  [mediaTypes."text/htaccess"]
+    suffixes = ["htaccess"]
 
 [params]
   canonical = 'https://softwarearchitecture.fr/'
