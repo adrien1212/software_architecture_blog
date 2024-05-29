@@ -9,7 +9,7 @@ defaultContentLanguage = 'fr'
 [languages]
   [languages.fr]
     languageName = 'French'
-    title = 'Software Architecture - Architecture Logicielle'
+    title = 'Software Architecture'
     weight = 1
 
 # For search functionality
@@ -29,7 +29,7 @@ defaultContentLanguage = 'fr'
 [params]
   canonicalUrl = 'https://softwarearchitecture.fr/'
   author.name = "Adrien CAUBEL"
-  description = "Apprennez l'Architecture Logicielle"
+  description = "Avec l'architecture Logicielle apprenez à créer des systèmes complexes; Comment trouver la meilleure solution ? Quels compromis à faire ?"
   #alwaysopen = true
   showVisitedLinks = true
   disableInlineCopyToClipBoard = true
