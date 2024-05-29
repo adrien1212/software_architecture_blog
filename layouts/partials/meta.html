@@ -16,7 +16,12 @@
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
     {{- $authorName := partialCached "authorname.hugo" . }}
     <meta name="author" content="{{ $authorName }}">
+
+    {{ if .Params.canonicalUrl }}
+    <link rel="canonical" href="{{ .Params.baseUrl }}">
+    {{ else }}
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{ end }}
+
     {{- partial "twitter_cards.html" . }}
     {{- partial "opengraph.html" . }}
-
-

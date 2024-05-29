@@ -27,7 +27,7 @@ defaultContentLanguage = 'fr'
     suffixes = ["htaccess"]
 
 [params]
-  canonical = 'https://softwarearchitecture.fr/'
+  canonicalUrl = 'https://softwarearchitecture.fr/'
   author.name = "Adrien CAUBEL"
   description = "Apprennez l'Architecture Logicielle"
   #alwaysopen = true
