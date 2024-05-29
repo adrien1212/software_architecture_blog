@@ -1,9 +1,16 @@
 baseURL = 'https://softwarearchitecture.fr/'
-languageCode = 'fr-fr'
+languageCode = 'fr-FR'
 title = 'Software Architecture'
 theme = "hugo-theme-relearn"
 relativeURLs = "True"
 enableRobotsTXT = true
+defaultContentLanguage = 'fr'
+
+[languages]
+  [languages.fr]
+    languageName = 'French'
+    title = 'Software Architecture - Architecture Logicielle'
+    weight = 1
 
 # For search functionality
 [outputs]
