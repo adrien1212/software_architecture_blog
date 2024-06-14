@@ -16,6 +16,9 @@ Les notions de _module_ et de _modularité_ viennent compléter la définition d
 
 Dans cette section, nous donnerons la définition d'un module en nous basant sur le livre _Java Application Architecture_ puis nous verrons comment les principes de Module et de Service sont fortement liés.
 
+## Point clé
+> The crucial aspect of modularity is concept of 'interchangeability'. If you can replace one component of your design with another component without changing anything else, we can say there is a high degree of modularity with that aspect of the design.
+
 ## Mesurer la modularité
 
 La modularité d'un module peut se mesurer grâce à plusieurs métriques. Les deux principales sont :
