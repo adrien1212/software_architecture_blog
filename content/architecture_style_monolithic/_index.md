@@ -6,7 +6,7 @@ weight = 61
 +++
 
 {{% notice style="warning" title= " " icon=" " %}}
-An architecture is monolithic when all the code is a single unit of deployment.
+In Monolith Architecture, our system consists of exactly one piece of executable code and nothing more.
 {{% /notice %}}
 
 C'est l'architecture originale des logiciels. Avec l'architecture monolithique tous les composants logiciel sont exécutés dans un seul process (même mémoire, thread)

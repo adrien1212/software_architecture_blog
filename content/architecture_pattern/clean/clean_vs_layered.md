@@ -11,7 +11,7 @@ La Clean Architecture est composée de plusieurs couches sur lesquelles on pouss
 
 ## Construction
 ### 1. Architecture Layered
-Nous repartons de l'architecture [Layered]({{% relref "../../architecture_style_monolithic/layered" %}}) présentées. Elle permet d'avoir des couches logiques isolés.
+Nous repartons de l'architecture [Layered]({{% relref "layered" %}}) présentées. Elle permet d'avoir des couches logiques isolés.
 
 ![Layered](../images/layered-detailled.png)
 
