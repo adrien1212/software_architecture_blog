@@ -5,6 +5,7 @@ theme = "hugo-theme-relearn"
 relativeURLs = "True"
 enableRobotsTXT = true
 defaultContentLanguage = 'fr'
+description = "Avec l'architecture Logicielle apprenez à créer des systèmes complexes; Comment trouver la meilleure solution ? Quels compromis à faire ?"
 
 [languages]
   [languages.fr]
@@ -29,7 +30,6 @@ defaultContentLanguage = 'fr'
 [params]
   canonicalUrl = 'https://softwarearchitecture.fr/'
   author.name = "Adrien CAUBEL"
-  description = "Avec l'architecture Logicielle apprenez à créer des systèmes complexes; Comment trouver la meilleure solution ? Quels compromis à faire ?"
   alwaysopen = true
   showVisitedLinks = false
   disableInlineCopyToClipBoard = true
