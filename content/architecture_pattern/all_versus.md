@@ -1,11 +1,11 @@
 +++
 title = "All Archiectures Versus"
-weight = 5
+weight = 98
 +++
 
 {{% notice style="tip" title="Ressources" icon="fa fa-book" %}}
-
 - [Hexagonal, Onion & Clean Architecture](https://youtu.be/JubdZIdLQ4M)
+- [Onion Architecture vs Clean Architecture Comparison](https://youtu.be/KqWNtCpjUi8?si=JJjJWEc5dalKlWSc)
   {{% /notice %}}
 
 ## Layered Architecture

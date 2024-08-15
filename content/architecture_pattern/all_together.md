@@ -1,6 +1,6 @@
 +++
 title = "All Archiectures Together"
-weight = 40
+weight = 99
 +++
 
 {{% notice style="tip" title="Ressources" icon="fa fa-book" %}}

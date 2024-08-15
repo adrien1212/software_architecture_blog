@@ -10,6 +10,6 @@ weight = 10
 - [Are Modular Monoliths a Winner?](https://hexmaster.nl/posts/are-modular-monoliths-a-winner/)
   {{% /notice %}}
 
-Intermédiaire entre une architecture monolithe et une architecture microservice, la *Modular Monolithe* doit être un intermédiaire à considérer.
+Intermédiaire entre une architecture monolithe et une architecture microservice, la *Modular Monolithe* (ou Modulithe) doit être un intermédiaire à considérer.
 
 ![alt text](images/alternative.png)

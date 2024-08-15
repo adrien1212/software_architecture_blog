@@ -4,6 +4,7 @@ menuPre = "2. "
 title = "L'architecture Logicielle"
 weight = 20
 addBrBefore = true
+isBoldTitle = true
 +++
 
 {{% notice style="tip" title="Ressources" icon="fa fa-book" %}}

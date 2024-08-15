@@ -25,6 +25,9 @@ Les livres ci-dessous sont une sélection parmi ceux que j'ai lus:
 
 [^1]: Aucun lien n'est affilié.
 
+## Video
+- [Playlist sur Clean Architecture & Domain-Driven Design](https://www.youtube.com/playlist?list=PLYpjLpq5ZDGv370qMB4PLF-PlGdBhP0PA)
+
 ## Wikipedia
 
 - [Software Architecture](https://en.wikipedia.org/wiki/Software_architecture)

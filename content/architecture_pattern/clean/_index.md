@@ -4,7 +4,7 @@ weight = 30
 +++
 
 {{% notice style="tip" title="Ressources" icon="fa fa-book" %}}
-
+- [The Beginner's Guide to Clean Architecture](https://youtu.be/TQdLgzVk2T8?list=PLYpjLpq5ZDGv370qMB4PLF-PlGdBhP0PA)
 - [Clean Architecture isn't understood by article authors](https://www.reddit.com/r/softwarearchitecture/comments/sjl9d1/clean_architecture_isnt_understood_by_article/)
   {{% /notice %}}
 

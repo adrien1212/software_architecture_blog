@@ -30,13 +30,13 @@ defaultContentLanguage = 'fr'
   canonicalUrl = 'https://softwarearchitecture.fr/'
   author.name = "Adrien CAUBEL"
   description = "Avec l'architecture Logicielle apprenez à créer des systèmes complexes; Comment trouver la meilleure solution ? Quels compromis à faire ?"
-  #alwaysopen = true
-  showVisitedLinks = true
+  alwaysopen = true
+  showVisitedLinks = false
   disableInlineCopyToClipBoard = true
   ordersectionsby = "weight"
   titleSeparator = "-"
   externalLinkTarget = "_blank"
-  themeVariant='my-custom-variant'
+  themeVariant='my-custom-variant-bis'
   custom_css = ["https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"]
 
 # these values are hugo built in markup config

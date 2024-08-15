@@ -3,6 +3,7 @@ menuPre = "4. "
 archetype = "chapter"
 title = "Concepts Fondamentaux"
 weight = 40
+isBoldTitle = true
 +++
 
 Dans se chapitre nous revenons sur les concepts fondamentaux :

@@ -3,6 +3,7 @@ menuPre = "3. "
 archetype = "chapter"
 title = "Caractéristiques Archi."
 weight = 30
+isBoldTitle = true
 +++
 
 {{% notice style="tip" title="Ressource" icon="fa fa-icon" %}}

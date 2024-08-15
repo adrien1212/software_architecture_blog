@@ -4,6 +4,7 @@ archetype = "chapter"
 title = "Domain Driven Design"
 weight = 98
 addBrBefore = true
+isBoldTitle = true
 +++
 
 {{% notice style="tip" title="Ressources" icon="fa fa-book" %}}

@@ -4,6 +4,7 @@ menuPre = "99. "
 title = "Principes SOLID"
 weight = 999
 addBrBefore = true
+isBoldTitle = true
 +++
 
 {{% notice style="tip" title="Ressource" icon="fa fa-icon" %}}

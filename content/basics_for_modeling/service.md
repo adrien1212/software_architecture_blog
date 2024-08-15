@@ -1,14 +1,23 @@
 +++
-title = "Service"
+title = "Service (architecture)"
 weight = 40
 +++
 
 {{% notice style="tip" title="Ressource" icon="fa fa-book" %}}
 
 - [Lesson 134 - What is a Service?](https://youtu.be/AHMlV_Y80Zw)
+- [You first need to define what a service is](https://softwareengineering.stackexchange.com/a/218394/385571)
   {{% /notice %}}
 
 Tout au long des chapitres suivants nous allons parler de _Service_, regardons donc ensemble que signifie ce terme.
+
+## You first need to define what a service is
+[Services in Domain-Driven Design (DDD)](http://gorodinski.com/blog/2012/04/14/services-in-domain-driven-design-ddd/)
+> The term service is overloaded and its meaning takes on different shades depending on the context
+
+Un service n'est pas quelque chose de clairement défini. En réalité, ce qu'un service doit faire est très spécifique à l'architecture :
+- Dans une architecture en couche, un service est synonyme de la couche *Business Logic*. C'est la couche entre l'interface utilisateur et les données. 
+- Dans une architecture SOA, un service est une propriété d'un domaine métier (chaque service possède ses propres données, ses propres règles métier et sa propre UI)
 
 ## Définition
 

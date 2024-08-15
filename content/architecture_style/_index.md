@@ -4,6 +4,7 @@ menuPre = "6. "
 title = "Styles Architecturaux"
 weight = 60
 addBrBefore = true
+isBoldTitle = true
 +++
 
 {{% notice style="tip" title="Ressource" icon="fa fa-icon" %}}
