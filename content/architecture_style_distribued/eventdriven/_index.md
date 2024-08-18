@@ -7,6 +7,7 @@ alwaysopen = false
 {{% notice style="tip" title= "Ressources" icon="fa fa-book" %}}
 - [https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/event-driven](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/event-driven)
 - [Darkside of Event-Driven Architecture](https://youtu.be/tWyXNJ8EJTY)
+- [Event-Driven Architecture (EDA) vs Request/Response (RR)](https://youtu.be/7fkS-18KBlw)
   {{% /notice %}}
 
 ## Darkside

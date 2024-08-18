@@ -4,9 +4,9 @@ weight = 1
 +++
 
 {{% notice style="tip" title="Ressource" icon="fa fa-icon" %}}
-
+- [Highly COHESIVE Software Design to tame Complexity](https://codeopinion.com/highly-cohesive-software-design-to-tame-complexity/)
+- [SOLID? Nope, just Coupling and Cohesion](https://codeopinion.com/solid-nope-just-coupling-and-cohesion/)
 - [(Fin de l'article) I don't love the single responsibility principle](https://sklivvz.com/posts/i-dont-love-the-single-responsibility-principle/)
-
 {{% /notice %}}
 
 ## Couplage
@@ -31,3 +31,8 @@ Cohesion tells whether code that changes for the same reason, is put closely. We
 {{% /notice %}}
 
 La cohésion représente la mesure dans laquelle une partie d'un code (e.g. un ensemble de classe) constitue une unité logique. L'objetif est de regrouper les éléments partageant une même logique ensemble; ceci peut être des classes qu'on regroupe dans un même module/service, des fonctions qu'on regroupe dans une même classe, etc ...
+
+## Métriques
+{{% notice style="tip" title="Ressources" icon="book" %}}
+- [Write Stable Code using Coupling Metrics](https://codeopinion.com/write-stable-code-using-coupling-metrics/)
+{{% /notice %}}
