@@ -14,7 +14,7 @@ La principale difficulté de l'architecture microkernel est la communication:
 ## Registre
 Mais avant de pouvoir communiquer, il faut connaitre avec *qui* on peut communiquer et *comment* on communique. Pour ce faire, le coeur applicatif va utiliser un registre qui contient des informations sur chaque module (son nom, les détails du contrat, le format, protocole d'accès à distance si besoin).
 
-Le format peut être un XML, un JSON ou un objet (e.g. DTO Java) et les détails du contrat (i.g. paramètres d'entrées et de sortie) sont fournis par le service appelé.
+Le format peut être un XML, un JSON ou un objet (e.g. DTO Java) et les détails du contrat (i.e. paramètres d'entrées et de sortie) sont fournis par le service appelé.
 
 ## Communication Kernel-Plugins
 La communication avec le coeur peut se faire de deux manières :
@@ -23,7 +23,7 @@ La communication avec le coeur peut se faire de deux manières :
 
 ### Point-à-point
 Avec cette approche les plugins sont compilés sous la forme d'éxécutable (e.g. `jar`) puis :
-- le coeur applicatif appelle les plugins grâce un appel de fonction classique via l'interface (i.g. code java)
+- le coeur applicatif appelle les plugins grâce un appel de fonction classique via l'interface (i.e. code java)
 - le plugin peut appeler le coeur applicatif via l'interface également
 
 ![point to point](../images/point-to-point.png?width=40pc)

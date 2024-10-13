@@ -16,7 +16,7 @@ C'est pour cette raison, qu'un chapitre est dédié à la [modularité]({{% relr
 
 La **différence** entre un module et un service **réside donc dans le conditionnement**.
 
-- Les modules sont des composants au niveau de la programmation qui encapsulent un morceau de logiciel pour qu'il soit réutilisé par d'autres logiciels via un _in-memory function calls_ (i.g. appel classique d’une fonction). Par exemple, une dépendance Maven.
+- Les modules sont des composants au niveau de la programmation qui encapsulent un morceau de logiciel pour qu'il soit réutilisé par d'autres logiciels via un _in-memory function calls_ (i.e. appel classique d’une fonction). Par exemple, une dépendance Maven.
 - Un microservice est le déploiement d'un logiciel destiné à être utilisé par d'autres logiciels au travers d'un protocole (e.g. http); on parle donc de _out-of-process_.
 
 ![module vs service](../images/module_vs_service.png?width=40pc)
@@ -34,4 +34,4 @@ Comme on le voit ci-dessus :
 
 Martin Fowler appelle ceci la _Componentization_.
 
-Nous définissons les bibliothèques (modules) comme des composants liés à un programme et appelés à l'aide _in-memory function calls_ (i.g. appel classique d'une fonction), tandis que les services sont des composants _out-of-process_ qui communiquent avec un mécanisme tel qu'une demande de service web (http) ou un appel de procédure à distance (remote).
+Nous définissons les bibliothèques (modules) comme des composants liés à un programme et appelés à l'aide _in-memory function calls_ (i.e. appel classique d'une fonction), tandis que les services sont des composants _out-of-process_ qui communiquent avec un mécanisme tel qu'une demande de service web (http) ou un appel de procédure à distance (remote).

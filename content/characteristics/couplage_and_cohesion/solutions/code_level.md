@@ -26,7 +26,7 @@ L'objectif est de respecter le principe " _Low coupling, High cohésion_ "
 
 > To achieve less coupling, each module should know the minimum about each other
 
-Pour ce faire, nous devons introduire des abstractions. Cette abstraction (i.g. une interface en Java) doit expose uniquement les fonctionnalités nécessaires pour d'autres module; ni plus ni moins. Ceci offre plusieurs avantages
+Pour ce faire, nous devons introduire des abstractions. Cette abstraction (i.e. une interface en Java) doit expose uniquement les fonctionnalités nécessaires pour d'autres module; ni plus ni moins. Ceci offre plusieurs avantages
 
 - vous aurez un modèle clair, une représentation claire de votre base de code. Il sera plus facile de le modifier et de le maintenir.
 - Différentes équipes peuvent travailler sur différentes parties de la base de code, sans se marcher sur les pieds. Si les modules de haut niveau ont une forte cohésion et un faible couplage, la modification d'un module n'affectera pas les autres.

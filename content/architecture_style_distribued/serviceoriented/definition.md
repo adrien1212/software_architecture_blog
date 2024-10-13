@@ -17,7 +17,7 @@ Service-Oriented Architecture (SOA) is an architectural style that supports *ser
 {{% /notice %}} 
 
 {{% notice style="warning" title= " " icon=" " %}}
-Le SOA sépare les fonctions en unités distinctes (i.g. services), que les développeurs rendent accessibles sur un réseau afin de permettre aux utilisateurs de les combiner et de les réutiliser dans la production d'applications.
+Le SOA sépare les fonctions en unités distinctes (i.e. services), que les développeurs rendent accessibles sur un réseau afin de permettre aux utilisateurs de les combiner et de les réutiliser dans la production d'applications.
 {{% /notice %}} 
 
 Un service :

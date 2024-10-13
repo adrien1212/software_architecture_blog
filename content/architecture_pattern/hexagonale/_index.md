@@ -9,6 +9,8 @@ weight = 10
 - [Hexagonal architecture - ensemble d'articles détaillés](https://jmgarridopaz.github.io/content/articles.html)
 
 - [Architecture Hexagonale : le guide pratique pour une clean architecture - FR](https://beyondxscratch.com/fr/2018/09/11/architecture-hexagonale-le-guide-pratique-pour-une-clean-architecture/)
+
+- [https://hexagonalarchitecture.org/](https://hexagonalarchitecture.org/)
   {{% /notice %}}
 
 > Allow an application to equally be driven by users, programs, automated test or batch scripts, and to be developed and tested in isolation from its eventual run-time devices and databases.

@@ -7,6 +7,7 @@ weight = 1
 
 - [The Single Responsibility Principle (original mention)](https://drive.google.com/file/d/0ByOwmqah_nuGNHEtcU5OekdDMkk/view?resourcekey=0-AbuGpXQzwZcUGExkktKt0g)
 - [Single Responsibility Principle (FR)](https://youtu.be/rjSw45LgysA)
+- [Why Every Element of SOLID is Wrong](https://speakerdeck.com/tastapod/why-every-element-of-solid-is-wrong?slide=20)
 
 <br >
 

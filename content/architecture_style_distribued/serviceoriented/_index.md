@@ -26,7 +26,7 @@ Pour ce faire, une architecture SOA doit répondre au caractéristiques suivante
 
 - n'a pas de langage spécifique de transport et de système d'exploitation. Doit être pris en charge par des normes ouvertes (SOAP, WSDL, etc ...).
 - aucun activité humaine n'est impliqué lors de l'exécution
-- application peut être divisée en "fragments de processus d'affaires" (i.g. services). Où chaque service expose une interface bien définie accessible via le réseaux.
+- application peut être divisée en "fragments de processus d'affaires" (i.e. services). Où chaque service expose une interface bien définie accessible via le réseaux.
 
 ![Histoire SOA](images/histoire.png)
 

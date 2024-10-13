@@ -4,8 +4,12 @@ date = 2023-10-27T18:26:00+02:00
 weight = 10
 +++
 
+{{% notice style="tip" title="Ressources" icon="book" %}}
+- [MUST READ : Design Principles from Design Patterns A Conversation with Erich Gamma, Part III](https://www.artima.com/articles/design-principles-from-design-patterns)
+{{% /notice %}}
+
 Une interface permet de définir un ensemble de services qu’un client peut obtenir d’un objet :
-- Elle définit les méthodes (i.g. service) qui vont pouvoir être appelées
+- Elle définit les méthodes (i.e. service) qui vont pouvoir être appelées
 - Elle définit les informations que doit founir l'appelant (i.g paramètre de la méthode)
 - Elle définit les informations que l'appelant va obtenir (i.g type de retour)
  
@@ -24,3 +28,9 @@ Une interface permet d'avoir un fort découplage entre l'appelant et l'appelée.
 
 Grâce à cette conception, si nous décidons de changer la classe `Appelée` par `Appelée2` l'appelant n'aura ni besoin d'être recompilé, ni besoin d'être redeployé car il a seulement connaissance de l'interface et pas l'implémentation concrète. L'abstraction permet d'exposer uniquement le service tout en cachant l'implémentation concrète.
 
+## Citation de la ressource
+> Once you depend on interfaces only, you're decoupled from the implementation. That means the implementation can vary, and that's a healthy dependency relationship
+
+> In Java when you add a new method to an interface, you break all your clients. When you have an abstract class, you can add a new method and provide a default implementation in it. All the clients will continue to work.
+
+> Imagine I define an interface with five methods, and I define an implementation class below that implements these five methods and adds another ten methods. If only the interface is published as API then if you call one of these ten methods you make an internal call. You call a method that is out of contract, which I might break anytime. So it's the difference, as Martin Fowler would say, between public and published. **Something can be public, but that doesn't mean you have published it.**

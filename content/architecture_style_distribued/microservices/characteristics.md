@@ -62,7 +62,7 @@ Un projet SOA classique se compose deux attributs "compliqués" :
 - un ESB : fait la médiation entre les services
 - WS-\* protocole : extension du protocole SOAP
 
-Avec l'approche microservice, nous allons utiliser des _dumb pipes_ (i.g. des protocoles simples) :
+Avec l'approche microservice, nous allons utiliser des _dumb pipes_ (i.e. des protocoles simples) :
 
 - HTTP protocole en exposant des REST API
 
