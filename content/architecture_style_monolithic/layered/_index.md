@@ -6,8 +6,8 @@ alwaysopen = false
 
 
 {{% notice style="tip" title="Ressources" icon="fa fa-book" %}}
-
 - [Layered Architecture, de 1960 à Aujourd'hui](https://herbertograca.com/2017/08/03/layered-architecture/)  
+- [Reevaluating the Layered Architecture](https://javadevguy.wordpress.com/2019/01/06/reevaluating-the-layered-architecture/)
   {{% /notice %}}
 
 ## Objectif du découpage

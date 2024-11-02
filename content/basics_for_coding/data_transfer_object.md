@@ -4,11 +4,21 @@ date = 2023-10-27T18:26:00+02:00
 weight = 20
 +++
 
+{{% notice style="tip" title="Ressources" icon="book" %}}
+- [ Why use DTOs (Data Transfer Objects)? ](https://youtu.be/JJT1xykf1do)
+{{% /notice %}}
+
 ## Définition
 {{% notice style="warning" title=" " icon=" " %}}
 A Data Transfer Object (DTO) is an object that is used to encapsulate data, and send it from one subsystem of an application to another.
 {{% /notice %}}
 
+### Pourquoi est-il important
+> Prevent leaking internal structure
+
+En exposant à l'utilisateur une structure différente de notre structure interne, nous aurons la possibilité de changer ultérieurement la structure interne sans impacter le client. En effet, dans le cas d'une API REST, si nous changeons la structure de retour ceci peut avoir des conséquences dramatiques pour l'appelant.
+
+## Exemple
 Il permet de transformer des informations qui transfère entre deux couches. Par exemple, dans l'exemple suivant le `AccountService` attend des objets de type `AccountRequestModel`.
 Ainsi, le Contrôleur :
 - Recupère les informations fournies par l'utilisateur (e.g. identifiant utilisateur, nom du compte, etc ...).
@@ -17,7 +27,7 @@ Ainsi, le Contrôleur :
 
 ![Alt text](../images/dto.png)
 
-## Un peu de code
+### Un peu de code
 ```java
 public interface AccountService {
     public create(AccountRequestModel accountRM);
@@ -50,7 +60,7 @@ Le client doit ainsi envoyer un json correspondant à un `AccountRequestModel`, 
     accountType: "CREDIT"
 }
 ```
-## ResponseModel (DTO de réponse)
+### ResponseModel (DTO de réponse)
 {{% notice info %}}
 Nous nous concentrons sur les données que nous voulons exposer au frontend. 
 {{% /notice %}} 

@@ -36,6 +36,7 @@ Pour ce faire, nous devons introduire des abstractions. Cette abstraction (i.e. 
 {{% notice style="tip" title="Ressource" icon="fa fa-icon" %}}
 
 - [https://enterprisecraftsmanship.com/posts/cohesion-coupling-difference/](https://enterprisecraftsmanship.com/posts/cohesion-coupling-difference/)
+- [Package by feature, not layer](http://www.javapractices.com/topic/TopicAction.do?Id=205)
 - [Domain Layer Structure & Skeleton | Clean Architecture & DDD From Scratch Tutorial](https://youtu.be/jnutb5Z4wyg)
   {{% /notice %}}
 

@@ -19,6 +19,13 @@ Nous devons donc concevoir nos services pour qu'ils puissent être modifiés et 
 
 ## Approches
 
+### Organiser par feature
+{{% notice style="tip" title="Ressources" icon="book" %}}
+- [Package by feature, not layer](http://www.javapractices.com/topic/TopicAction.do?Id=205)
+{{% /notice %}}
+
+On va retrouver le même principe que dans la page précédente. On ne pas organiser notre code en différents projet (Presentation, Service et Persistance) mais en créant des projets représentant nos domaine métier (Client, Article) et dans ces dossiers un redécoupage en couche via les package.
+
 ### Event-driven architecture
 Une approche par *Messages & Évènements* est souvent utilisé pour rendre nos systèmes faiblement couplés. Elle consiste à un ensemble de *producers* qui transmette des évènements sous la forme d'un message à des *consumers* qui les traitent.
 

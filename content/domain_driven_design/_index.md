@@ -11,6 +11,7 @@ isBoldTitle = true
 
 - [Learning Domain-Driven Design - Aligning Software Architecture and Business Strateg ](https://www.oreilly.com/library/view/learning-domain-driven-design/9781098100124/)
 - [DDD Exemple Java - GitHub](https://github.com/ddd-by-examples/library)
+- [DDD Welcome - GitHub](https://github.com/ddd-crew/welcome-to-ddd)
 
 - [Domain-Driven Hexagon (github)](https://github.com/Sairyss/domain-driven-hexagon?tab=readme-ov-file#application-services)
 - [Modular-monolith-with-ddd (github)](https://github.com/kgrzybek/modular-monolith-with-ddd)
