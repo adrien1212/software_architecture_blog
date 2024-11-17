@@ -2,6 +2,7 @@
 menuPre = " - 5.2 "
 title = "Patterns"
 weight = 52
+hidden = true
 +++
 
 {{% notice style="tip" title="Ressource" icon="fa fa-book" %}}
