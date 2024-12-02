@@ -10,6 +10,8 @@ isBoldTitle = true
 {{% notice style="tip" title="Ressource" icon="fa fa-icon" %}}
 
 - [https://betterprogramming.pub/trade-offs-on-monolithic-vs-distributed-architectures-7a04f86d47ad](https://betterprogramming.pub/trade-offs-on-monolithic-vs-distributed-architectures-7a04f86d47ad)
+
+- [https://guidanceshare.com/wiki/Application_Architecture_Guide](https://guidanceshare.com/wiki/Application_Architecture_Guide)
   {{% /notice %}}
 
 > Nous définissons un style d'architecture comme la structure globale entre de l'interface utilisateur et le backend (e.g. layered architecture avec déploiement monolithique) et la manière dont le code interagit avec la base de données.

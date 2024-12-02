@@ -6,6 +6,9 @@ weight = 20
 
 {{% notice style="tip" title="Ressources" icon="book" %}}
 - [ Why use DTOs (Data Transfer Objects)? ](https://youtu.be/JJT1xykf1do)
+- [Don’t expose your JPA entities in your REST API](https://thorben-janssen.com/dont-expose-entities-in-api/)
+
+- [DTOs & Mapping : The Good, The Bad, And The Excessive](https://youtu.be/FKFxWrwdAWc)
 {{% /notice %}}
 
 ## Définition
