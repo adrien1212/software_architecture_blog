@@ -39,6 +39,7 @@ Quelques repositories github sur l'architecture logicielle
 
 - [Domain-Driven Hexagon](https://github.com/Sairyss/domain-driven-hexagon?tab=readme-ov-file#application-services)
 - [Modular-monolith-with-ddd](https://github.com/kgrzybek/modular-monolith-with-ddd)
+  - [Articles et vidéos recommandées par l'auteur](https://github.com/kgrzybek/modular-monolith-with-ddd?tab=readme-ov-file#10-inspirations-and-recommendations)
 
 ## Awesome Blog!
 
