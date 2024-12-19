@@ -7,7 +7,7 @@ isBoldTitle = true
 +++
 
 {{% notice style="tip" title="Ressource" icon="fa fa-icon" %}}
-
+- [System Quality Attributes (list and definition)](https://github.com/joelparkerhenderson/system-quality-attributes)
 - [The Reactive Manifesto](https://www.reactivemanifesto.org/fr)
   {{% /notice %}}
 
